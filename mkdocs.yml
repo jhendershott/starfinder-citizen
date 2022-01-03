@@ -1,0 +1,33 @@
+site_name: StarFinder Citizen
+site_url: http://starfindercitizen.space/
+nav:
+    - Home: index.md
+    - Overview: overview.md
+    - 'Character Creation': 'charactercreation.md'
+    - Races: 
+      - Human: races/human.md
+      - "Xi'an": races/xian.md
+      - Banu: races/banu.md
+      - Tevarin: races/tevarin.md 
+      - Vanduul: races/vandul.md
+    - Classes: 
+      - Trader: classes/trader.md
+      - Engineer: classes/engineer.md
+      - Operative: classes/operative.md
+      - Soldier : classes/soldier.md
+      - Tradesman: classes/tradesman.md
+    - Skills: skills.md
+    - Feats: feats.md
+    - Equipment: 
+      - Weapons: equipment/weapons.md
+      - Armor: equipment/armor.md
+      - Augmentations: equipment/augmentations.md
+      - Computers: equipment/computer.md
+      - 'Technological Items': equipment/techitems.md
+      - Vehicles: equipment/vehicles.md
+      - 'Other Purchases': equipment/other.md
+    - 'Tactical Rules': tacticalrules.md
+    - Starships: starships.md
+    - 'Game Mastering': game-mastering.md
+    - 'Setting and Lore': settinglore.md
+theme: windmill-dark
