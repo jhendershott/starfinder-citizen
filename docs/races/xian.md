@@ -3,7 +3,8 @@
 
 Xi'an are a bipedal reptiloid-like race with four fingers on each hand. They are exothermic, and can consciously control their metabolic rates to slow down their need for sustenance. This feature is used to increase endurance and concentration in long-distance travel, and is also used used to reach a heightened state of euphoria that aids in the generation and appreciation of some of their artwork.
 
-<strong>Ability Adjustments:</strong> +2 Con, +2 Int, -2 Str
+<strong>Ability Adjustments:</strong> +2 Constitution, +2 Intelligence, -2 Strength
+
 <strong>Hit Points:</strong> 6
 
 <strong>Fearless</strong>: Xi'an receive a +2 racial bonus to saving throws against fear effects.
@@ -52,8 +53,7 @@ Neutral, formerly hostile. Trading.
 ### Vanduul
 Indifferent, but not welcome.
 
-## Names
-## Names
+## Names and Language
 Examples of the Xi'an Alphabet can be found in a PDF on the Star Citizen forum 'spectrum' [Xi'an Alphabet](https://robertsspaceindustries.com/spectrum/community/SC/forum/88012/thread/xi-an-alphabet)
 When written in human script the characters denote the pitch of the words and the written language is glyph based. You can combine a number of syllables with the symbols to create names and words
 
@@ -67,7 +67,11 @@ When written in human script the characters denote the pitch of the words and th
 - nya’t.ong: Would indicate a falling pitch, staring neutral or higher and falling into lower ranges
 - ny.as’eyo” : this would start in a lower register and move into the neutral and continue rising to a higher pitch
 
+Some examples of Xi'an Names are T.yi, Torsi Leelk, Twayng Kray, Weó Kray
+Yalé Ruá
+
 ## References
 <br>[Star Citizen Wiki fandom](https://starcitizen.fandom.com/wiki/Xi%27an)
 <br>[Star Citizen Tools](https://starcitizen.tools/Xi%27an)
 <br>[Star Citizen: A quick Guide to SRX](https://robertsspaceindustries.com/comm-link/spectrum-dispatch/16214-A-Quick-Guide-To-SRX)
+
