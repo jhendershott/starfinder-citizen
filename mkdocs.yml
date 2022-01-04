@@ -9,7 +9,7 @@ nav:
       - "Xi'an": races/xian.md
       - Banu: races/banu.md
       - Tevarin: races/tevarin.md 
-      - Vanduul: races/vandul.md
+      - Vanduul: races/vanduul.md
     - Classes: 
       - Trader: classes/trader.md
       - Engineer: classes/engineer.md
@@ -31,4 +31,3 @@ nav:
     - 'Game Mastering': game-mastering.md
     - 'Setting and Lore': settinglore.md
 theme: windmill-dark
-dev_addr: '0.0.0.0:8080'
