@@ -11,11 +11,12 @@ nav:
       - Tevarin: races/tevarin.md 
       - Vanduul: races/vanduul.md
     - Classes: 
-      - Trader: classes/trader.md
+      - Envoy: classes/envoy.md
       - Engineer: classes/engineer.md
       - Operative: classes/operative.md
+      - Scientist: classes/scientist.md
       - Soldier : classes/soldier.md
-      - Tradesman: classes/tradesman.md
+      - Roughneck: classes/roughneck.md
     - Skills: skills.md
     - Feats: feats.md
     - Equipment: 
