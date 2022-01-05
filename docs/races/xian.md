@@ -1,7 +1,11 @@
 # The Xi'an 
 (pronounced : / SHEE-ahn /)
 
+
+
 Xi'an are a bipedal reptiloid-like race with four fingers on each hand. They are exothermic, and can consciously control their metabolic rates to slow down their need for sustenance. This feature is used to increase endurance and concentration in long-distance travel, and is also used used to reach a heightened state of euphoria that aids in the generation and appreciation of some of their artwork.
+
+![Xi'an](../images/Xian.jpeg)
 
 <strong>Ability Adjustments:</strong> +2 Constitution, +2 Intelligence, -2 Strength
 

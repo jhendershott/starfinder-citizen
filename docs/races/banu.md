@@ -1,6 +1,8 @@
 # Banu
 The Banu are an alien race and humanity's first interstellar friends. They are renowned for being focused on commerce and trading.
 
+![Banu](../images/Banu.jpeg)
+
 <strong>Ability Adjustments:</strong> +2 Constitution, +2 Charisma, -2 Dexterity
 
 <strong>Hit Points:</strong> 4

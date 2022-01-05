@@ -2,6 +2,8 @@
 
 Ambitious, creative, and endlessly curious, humans have shown more drive to explore their system and the universe beyond than any of their neighbor races—for better and for worse. They’ve helped usher in a new era of system-wide communication and organization and are admired for their passion and tenacity, but their tendency to shoot first and think about the consequences later can make them a liability for those races otherwise inclined to work with them.
 
+![Multicorp Human](../images/human.png)
+
 <strong>Ability Adjustments:</strong> +2 to any 1 Ability
 
 <strong>Hit Points:</strong> 4
@@ -47,7 +49,7 @@ Humans are the glue that holds the rest of the solar system together. Their seem
 ### Vanduul
 Since their first encounter in the Orion system, Humans and Vanduuls have been waging a merciless war. The UEE diplomats tried well to approach the clans, but nothing could calm this cultural war which does not seem to have an end.
 
-### Banu: 
+### Banu 
 The first race humanity encountered during its ascent to space, it has always kept a cordial understanding with humanity, and a peace agreement in principle exists. The Banus do a lot of business, and this is a more than sufficient vector of understanding for the UEE.
 
 ### Xi'an

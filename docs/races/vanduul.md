@@ -2,6 +2,8 @@
 
 The Vanduul (pronounced: / Van-DOOL /) are a race in Star Citizen. They are highly aggressive and appear to travel the galaxy in hordes, raiding colonies to survive. The Vanduul are the fourth alien race discovered by the United Empire of Earth, the first being the Banu.
 
+![Vanduul](../images/Vanduul.jpeg)
+
 <strong>Ability Adjustments:</strong> +2 Strength, +2 Constitution, –2 Intelligence
 
 <strong>Hit Points:</strong> 6

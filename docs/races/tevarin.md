@@ -1,6 +1,9 @@
 # Tevarin
 The Tevarin (/TEV-are-inn/) are an extraterrestrial species. After two wars with the United Planets of Earth (UPE) and their entire defeat in 2610, they lost their sovereignty and were absorbed into the UPE. The Tevarin homeworld was terraformed and annexed by the UPE.
 
+![Tevarin Armor](../images/Tevarin.jpeg)
+![Tevarin Head](../images/Tevarin-Heads.jpeg)
+
 <strong>Ability Adjustments:</strong> +2 Dexterity, +2 Intelligence, –2 Charisma
 
 <strong>Hit Points:</strong> 4
