@@ -35,56 +35,54 @@ Weapon Damage types are denoted next to the damage Role and are as follows
 ### SMG's
 |  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
 |--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
-| C54 |
-| Custodian |
-| Fresnel |
-| Lumin V |
-| P8-SC | 
-| Quartz| 
+| C54 | 2 | 2450 | 2d4(P) | 60ft/18m | - | 50 | 1 | L | automatic, conceal|
+| Fresnel | 4 | 2450 | 2d4(E) | 60ft/18m | Staggered | 50 | 1 | L | automatic, stun|
+| Lumin V | 6 | 2700 | 2d4F | 100ft/30m | Burn 1d4 | 45 | 1 | L | automatic |
+| P8-SC | 8 | 2000 | 2d6(P) | 60ft/18m | Knockdown, Bleed 1d6 | 45 | 1 | L | automatic, analogue
+| Custodian | 10 | 2450 | 2d6(P) | 60ft/18m | Burn 1d6 | 60 | 1 | L | automatic, Boost 2d6|
 
 ### Assault Rifles
 |  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
 |--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
-| Gallant |
-| Karna |
-| P4-AR |
-| P8-AR |
-| Parallax |
-| S71 | 
+| S71 | 2 | 4300 | 1d10P | 100ft/30m | Bleed 1d4 | 30 | 1 | L |  Automatic|
+| Gallant | 4 | 4300 | 2d6F | 100ft/30m | Burn 1d6 | 60 | 1 | L | Automatic| 
+| P4-AR | 4 | 4300 | 2d6P | 100ft/30m | Knockdown | 30 | 1 | L | Analog, Automatic|
+| Karna | 5 | 4300 | 2d6F | 100ft/30m | burn 2d4 | 30 | 1 | L | Boost 2d6, Automatic| 
+| P8-AR | 5 | 4300 | 3d6P | 120ft/30m | Knockdown, bleed 1d8| 30 | 1 | L | Analog, Automatic|
+| Parallax | 5 | 5600 | 3d6(E)| 100ft/30.5m | Staggered, Knockdown| 40 | 1 | L | Stun |
 
 ### Shotguns
 |  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
-|--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
-| BR-2|
-| Devastator |
-| R97|
-| Ravager-212 |
+|------------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
+| R97| 4 | 1177 | 2d8(P) | 15ft/5m | - | 10 | 1 | Blast |
+| BR-2| 8 | 1540 | 3d6(F) | 15ft/5m | Knockdown, Burn 1d4| 12 | 1 | Analog, Blast|
+| Ravager-212 | 10 | 1596 | 4d6(P) |  30ft/9.1m | Knockdown, Bleed 1d6 | 16 | 2 | Analog, Blast |
+| Devastator | 14 | 1471 | 4d8(F) | 30ft/9.1m | Knockdown, Burn 1d8| 20| 1 | Boost 2d8| 
 
 ### LMG's
 |  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
 |--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
-| Demeco |
-| F55 |
-| FS-9 |
+| FS-9 | 7 | 2500| 3d6(P)|  60ft/18m | Knockdown | 120 | 10 | Automatic, Unwieldy |
+| Demeco | 10 | 5600 | 3d8(F)| 100ft/30.5m | Burn 1d6 | 40 | 3 | L | Automatic, Unweildy|
+| F55 | 12 | 2400 | 3d8(P) | 100ft/30.5m | Knockdown, Bleed 1d6| 150 | 12 | L | Automatic, Unweildy|
 
 ### Sniper Rifles
 |  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
 |--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
-| A03 |
-| Arrowhead|
-| Atzkav |
-| P6-LR |
-| Scalpel |
+| Scalpel | 2 | 3600 | 1d10(P) |100ft/30.5m | - | 8 | 1 | M| Analog, Sniper(500ft), Unwieldy  |  
+| Arrowhead| 8 | 4600 | 2d10(F) | 100ft/30.5m | Burn 2d6 | 10 | M | Penetration, Unwieldy, Sniper(500ft)
+| A03 | 12 | 4600 | 4d10(P) | 120ft/36.5m | Knockdown | 15 | M | Penetration, Unwieldy, Sniper(750ft)
+| Atzkav | 16 | 4600 | 6d10(E) | 120ft/36.5m | Staggered| 15 | M | Stun, Unwieldy, Sniper(1000ft)
+| P6-LR | 20| 4600 | 10d10(P) | 120ft/36.5m | Knockdown | 15 | M | Penetration, Unwieldy, Sniper(1000ft)
+
 
 ### Launchers
 |  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
 |--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
-| Scourge Railgun |
-| Animus Missle |
-| GP-33 Mod Grenade |
-| HP-284 Rocket |
-| I'rhal Rocket |
-| Kahix Missle | 
+| GP-33 Mod Grenade | 4 | 7300 | 4d6(B&P) | 60ft/18m | Staggered | 6 | 1 | M | Explode(15ft/4.5m)|
+| Scourge Railgun | 6 | 6000 | 3d8(P) | 60ft/18m | Staggered | 10 | 1 | M | Penetrating, Line, Unwieldy|
+| Animus Missle | 10 | 8200 | 6d8(B&P)| 100ft/30.5m| Knockdown, Staggered | 3| 1 | M | Explode(30ft/9.1m), Unwieldy |
+| Kahix Missle | 13 | 10200 | 13d8(B&F)| 120ft/36.5m| Knockdown, Staggered | 3| 1 | M | Explode(30ft/9.1m), Unwieldy | 
 
 ## Reading Weapon Tables
 An entry on a weapon table describes a single weapon, with the following statistics. Individual weapons are described in Weapon Descriptions. The descriptions are organized primarily by weapon category (cryo, flame, laser, plasma, projectile, shock, sonic, and uncategorized).
