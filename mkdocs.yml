@@ -20,6 +20,7 @@ nav:
     - Skills: skills.md
     - Feats: feats.md
     - Equipment: 
+      - Equipment: equipment/equipment.md
       - Weapons: equipment/weapons.md
       - Armor: equipment/armor.md
       - Augmentations: equipment/augmentations.md
