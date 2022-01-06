@@ -22,17 +22,69 @@ Weapon Damage types are denoted next to the damage Role and are as follows
 ## Ranged Weapns
 
 ### Pistols
-| Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
-|--------| 	----- | ---- | ----- | ----- | ----- | ----- |----- | ----- | ----- |
-| LH86 | 1 | 554 | 1d4+1 (P) |  30ft/9.1m | - | 13 | 1 | L | Conceal |
-| S-38 | 3 | 675 | 1d6 | 30ft/9.1m | - | 15 | 1 | L | - |
-| Arclight | 6 | 796 | 1d8 (F) | 50ft/15m | - | 60 | 1 | L | - |
+|  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
+|--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
+| LH86 | 1 | 554 | 1d4+1(P) |  30ft/9.1m | - | 13 | 1 | L | Conceal |
+| Taser | 1 | 450 | 1d4(E) |  30ft/9.1m| - | 5 | 1 | L | Nonlethal|
+| S-38 | 3 | 675 | 1d6(P) | 30ft/9.1m | - | 15 | 1 | L | Analogue |
+| Arclight | 6 | 796 | 1d8(F) | 50ft/15m | - | 60 | 1 | L | - |
 | Coda | 9 | 722 | 3d4(P) | 50ft/15m | Knockdown | 6 | 1 | L | Analogue |
-|Yubarev | 12 | 780 | 2d4 + 1 (E) | 50ft/15m | Knockdown, Staggered | 10 | L | Stun |
-| Salvo Frag Pistol | 15 | 333 | 3d4 | 50ft/15m | Knockdown, Deafen | 1 | L | Boost 3d6 |
+|Yubarev | 12 | 780 | 2d4 + 1(E) | 50ft/15m | Knockdown, Staggered | 10 | L | Stun |
+| Salvo Frag Pistol | 15 | 333 | 3d4(P) | 50ft/15m | Knockdown, Deafen | 8 | 1 | L | Boost 3d6, Unweildy, Free Hands(1) |
 
+### SMG's
+|  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
+|--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
+| C54 |
+| Custodian |
+| Fresnel |
+| Lumin V |
+| P8-SC | 
+| Quartz| 
 
-### 
+### Assault Rifles
+|  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
+|--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
+| Gallant |
+| Karna |
+| P4-AR |
+| P8-AR |
+| Parallax |
+| S71 | 
+
+### Shotguns
+|  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
+|--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
+| BR-2|
+| Devastator |
+| R97|
+| Ravager-212 |
+
+### LMG's
+|  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
+|--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
+| Demeco |
+| F55 |
+| FS-9 |
+
+### Sniper Rifles
+|  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
+|--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
+| A03 |
+| Arrowhead|
+| Atzkav |
+| P6-LR |
+| Scalpel |
+
+### Launchers
+|  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
+|--------| 	----- | ---- |----- | ----- | ----- | ----- |----- | ----- | ----- |
+| Scourge Railgun |
+| Animus Missle |
+| GP-33 Mod Grenade |
+| HP-284 Rocket |
+| I'rhal Rocket |
+| Kahix Missle | 
 
 ## Reading Weapon Tables
 An entry on a weapon table describes a single weapon, with the following statistics. Individual weapons are described in Weapon Descriptions. The descriptions are organized primarily by weapon category (cryo, flame, laser, plasma, projectile, shock, sonic, and uncategorized).
