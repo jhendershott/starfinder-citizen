@@ -32,6 +32,13 @@
       var is_top_frame = false;
         
         var pageToc = [
+          {title: "Weapons", url: "#_top", children: [
+              {title: "Energy Damage", url: "#energy-damage" },
+              {title: "Kinetic Gamage", url: "#kinetic-gamage" },
+              {title: "Basic Melee Weapons", url: "#basic-melee-weapons" },
+              {title: "Ranged Weapns", url: "#ranged-weapns" },
+              {title: "Reading Weapon Tables", url: "#reading-weapon-tables" },
+          ]},
         ];
 
     </script>
@@ -68,10 +75,10 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     </div>
     
     <div class="wm-article-nav">
-      <a href="../../classes/tradesman/" class="btn btn-xs btn-default pull-left">
+      <a href="../equipment/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../../classes/tradesman/" class="btn btn-xs btn-link">
-        Tradesman
+        Previous</a><a href="../equipment/" class="btn btn-xs btn-link">
+        Equipment
       </a>
     </div>
     
@@ -79,7 +86,683 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    
+    <h1 id="weapons">Weapons</h1>
+<p>Weapon Damage types are denoted next to the damage Role and are as follows</p>
+<h4 id="energy-damage">Energy Damage</h4>
+<table>
+<thead>
+<tr>
+<th>Damange Type</th>
+<th>Symbol</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acid</td>
+<td>A</td>
+<td>Damage dealt by corrosive substances and effects.</td>
+</tr>
+<tr>
+<td>Cold</td>
+<td>C</td>
+<td>Damage dealt by ice and cryogenic energy.</td>
+</tr>
+<tr>
+<td>Electricity</td>
+<td>E</td>
+<td>Damage dealt by lightning and other electric shocks.</td>
+</tr>
+<tr>
+<td>Fire</td>
+<td>F</td>
+<td>Damage dealt by flames, lasers, and extreme heat.</td>
+</tr>
+<tr>
+<td>Sonic</td>
+<td>So</td>
+<td>Damage dealt by loud noise or damaging frequencies.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="kinetic-gamage">Kinetic Gamage</h4>
+<table>
+<thead>
+<tr>
+<th>Damange Type</th>
+<th>Symbol</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bludgeoning</td>
+<td>B</td>
+<td>Damage from blunt force.</td>
+</tr>
+<tr>
+<td>Piercing</td>
+<td>P</td>
+<td>Damage from spikes, bullets, and punctures.</td>
+</tr>
+<tr>
+<td>Slashing</td>
+<td>S</td>
+<td>Damage from blades, claws, and sharp edges.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="basic-melee-weapons">Basic Melee Weapons</h2>
+<h2 id="ranged-weapns">Ranged Weapns</h2>
+<h3 id="pistols">Pistols</h3>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Level</th>
+<th>Price</th>
+<th>Damage</th>
+<th>Range</th>
+<th>Critical</th>
+<th>Capacity</th>
+<th>Usage</th>
+<th>Bulk</th>
+<th>Special</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LH86</td>
+<td>1</td>
+<td>554</td>
+<td>1d4+1(P)</td>
+<td>30ft/9.1m</td>
+<td>-</td>
+<td>13</td>
+<td>1</td>
+<td>L</td>
+<td>Conceal</td>
+</tr>
+<tr>
+<td>Taser</td>
+<td>1</td>
+<td>450</td>
+<td>1d4(E)</td>
+<td>30ft/9.1m</td>
+<td>-</td>
+<td>5</td>
+<td>1</td>
+<td>L</td>
+<td>Nonlethal</td>
+</tr>
+<tr>
+<td>S-38</td>
+<td>3</td>
+<td>675</td>
+<td>1d6(P)</td>
+<td>30ft/9.1m</td>
+<td>-</td>
+<td>15</td>
+<td>1</td>
+<td>L</td>
+<td>Analogue</td>
+</tr>
+<tr>
+<td>Arclight</td>
+<td>6</td>
+<td>796</td>
+<td>1d8(F)</td>
+<td>50ft/15m</td>
+<td>-</td>
+<td>60</td>
+<td>1</td>
+<td>L</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Coda</td>
+<td>9</td>
+<td>722</td>
+<td>3d4(P)</td>
+<td>50ft/15m</td>
+<td>Knockdown</td>
+<td>6</td>
+<td>1</td>
+<td>L</td>
+<td>Analogue</td>
+</tr>
+<tr>
+<td>Yubarev</td>
+<td>12</td>
+<td>780</td>
+<td>2d4 + 1(E)</td>
+<td>50ft/15m</td>
+<td>Knockdown, Staggered</td>
+<td>10</td>
+<td>L</td>
+<td>Stun</td>
+<td></td>
+</tr>
+<tr>
+<td>Salvo Frag Pistol</td>
+<td>15</td>
+<td>333</td>
+<td>3d4(P)</td>
+<td>50ft/15m</td>
+<td>Knockdown, Deafen</td>
+<td>8</td>
+<td>1</td>
+<td>L</td>
+<td>Boost 3d6, Unweildy, Free Hands(1)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="smgs">SMG's</h3>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Level</th>
+<th>Price</th>
+<th>Damage</th>
+<th>Range</th>
+<th>Critical</th>
+<th>Capacity</th>
+<th>Usage</th>
+<th>Bulk</th>
+<th>Special</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C54</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Custodian</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Fresnel</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Lumin V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>P8-SC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Quartz</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="assault-rifles">Assault Rifles</h3>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Level</th>
+<th>Price</th>
+<th>Damage</th>
+<th>Range</th>
+<th>Critical</th>
+<th>Capacity</th>
+<th>Usage</th>
+<th>Bulk</th>
+<th>Special</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gallant</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Karna</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>P4-AR</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>P8-AR</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Parallax</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>S71</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="shotguns">Shotguns</h3>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Level</th>
+<th>Price</th>
+<th>Damage</th>
+<th>Range</th>
+<th>Critical</th>
+<th>Capacity</th>
+<th>Usage</th>
+<th>Bulk</th>
+<th>Special</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BR-2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Devastator</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R97</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ravager-212</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="lmgs">LMG's</h3>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Level</th>
+<th>Price</th>
+<th>Damage</th>
+<th>Range</th>
+<th>Critical</th>
+<th>Capacity</th>
+<th>Usage</th>
+<th>Bulk</th>
+<th>Special</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Demeco</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>F55</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>FS-9</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="sniper-rifles">Sniper Rifles</h3>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Level</th>
+<th>Price</th>
+<th>Damage</th>
+<th>Range</th>
+<th>Critical</th>
+<th>Capacity</th>
+<th>Usage</th>
+<th>Bulk</th>
+<th>Special</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A03</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Arrowhead</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Atzkav</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>P6-LR</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Scalpel</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="launchers">Launchers</h3>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Level</th>
+<th>Price</th>
+<th>Damage</th>
+<th>Range</th>
+<th>Critical</th>
+<th>Capacity</th>
+<th>Usage</th>
+<th>Bulk</th>
+<th>Special</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scourge Railgun</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Animus Missle</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>GP-33 Mod Grenade</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>HP-284 Rocket</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>I'rhal Rocket</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Kahix Missle</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="reading-weapon-tables">Reading Weapon Tables</h2>
+<p>An entry on a weapon table describes a single weapon, with the following statistics. Individual weapons are described in Weapon Descriptions. The descriptions are organized primarily by weapon category (cryo, flame, laser, plasma, projectile, shock, sonic, and uncategorized).</p>
+<p>Not all weapons and ammunition have all the entries listed here. Melee weapons and ammunition don’t have range, shot, or rate of fire. Ammunition lists the number of cartridges or charges provided when purchased.</p>
+<ul>
+<li>
+<p>Level: The weapon or ammunition’s item level.</p>
+</li>
+<li>
+<p>Price: The typical market price of the weapon or ammunition.</p>
+</li>
+<li>
+<p>Damage: The amount of damage you roll when you hit with the weapon is listed here, along with an abbreviation for the damage type the weapon deals: A for acid, B for bludgeoning, C for cold, E for electricity, F for fire, P for piercing, S for slashing, and So for sonic. See Weapon Damage for more information.</p>
+</li>
+<li>
+<p>Range: The range increment of a ranged weapon.</p>
+</li>
+<li>
+<p>Critical: On a critical hit, a weapon’s damage is rolled twice. This entry lists any additional effect the weapon has when you score a critical hit against a target. For more information about additional critical effects, see Critical Hit Effects.</p>
+</li>
+<li>
+<p>Capacity: A weapon’s capacity measures the largest-capacity battery it can hold (given in number of charges), the number of rounds of ammunition its magazine can hold, the amount of fuel it carries, or the number of individual cartridges, grenades, or missiles it can hold. When a weapon entry states that its capacity is drawn, it means that you can hold only one such weapon in the number of hands required to use it. You can hold only a single grenade or shuriken in one hand, you can have only one arrow nocked at a time, and you can wield only one net at a time. Drawing a weapon—such as grabbing a grenade from your belt—requires a move action. Drawing a weapon might be different than wielding it.</p>
+</li>
+<li>
+<p>Usage: This listing shows how much ammunition is consumed with each attack you make with the weapon: The number of rounds from a magazine, the number of battery charges from a charged weapon, and so on.</p>
+</li>
+<li>
+<p>Bulk: This is the bulk of the item.</p>
+</li>
+<li>
+<p>Special: Any special properties of the weapon or ammunition are listed here (see Weapon Special Properties).</p>
+</li>
+</ul>
 
   <br>
     
@@ -102,10 +785,10 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     </div>
     
     <div class="wm-article-nav">
-      <a href="../../classes/tradesman/" class="btn btn-xs btn-default pull-left">
+      <a href="../equipment/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../../classes/tradesman/" class="btn btn-xs btn-link">
-        Tradesman
+        Previous</a><a href="../equipment/" class="btn btn-xs btn-link">
+        Equipment
       </a>
     </div>
     
