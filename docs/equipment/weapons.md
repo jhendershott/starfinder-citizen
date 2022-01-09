@@ -1,5 +1,7 @@
 # Weapons
+The Universe is a dangerous place, whether you're on a simple mining operation or aiding local security in a raid of a security post, you'll probably find yourself with a pistol on your hip or rifle over your shoulder. The information below provides you any manner of ways to deal damage when the time comes for it. This section is meant to include all that is required to play in the Star Citizen Universe but it's by no means a final be-all end-all list to the weapons or even types of weapons. At your GM's descretion you can use any of the items listed in Chapter 7 of the Starfinder Core Rulebook. However, there is one important point of consieration. Star Citizen is a high tech level/No magic setting. So all magic items and magic infusion should be left out or strongly discouraged when playing in this setting.
 
+## Weapon Damage
 Weapon Damage types are denoted next to the damage Role and are as follows
 #### Energy Damage
 |Damange Type | Symbol | Description |
@@ -17,9 +19,11 @@ Weapon Damage types are denoted next to the damage Role and are as follows
 | Piercing | P | Damage from spikes, bullets, and punctures. |
 | Slashing | S | Damage from blades, claws, and sharp edges. |
 
-## Basic Melee Weapons
+## Melee Weapons
+Star Citizen is currently lacking in melee weapons and has spent most of their time working on ranged weapons. However if you're looking for them to round out your characters or to enjoy melee combat  See the "Weapons" section in Chapter 7 of the Starfinder Core Rulebook.
 
-## Ranged Weapns
+## Ranged Weapons
+The Starfinder Core rulebook is stacked full of ranged weapons which you are free to use in this module, however if you would like to keep it immersive to the Star Citizen Universe, then you may want to limit your selection the tables below, which include all of the weapons you have come to know and love in the Star Citizen Universe.
 
 ### Pistols
 |  Weapon | 	Level | Price | Damage | Range | Critical | Capacity |Usage | Bulk | Special 
