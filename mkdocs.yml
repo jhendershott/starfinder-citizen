@@ -29,7 +29,10 @@ nav:
       - Vehicles: equipment/vehicles.md
       - 'Other Purchases': equipment/other.md
     - 'Tactical Rules': tacticalrules.md
-    - Starships: starships.md
+    - Starships: 
+      - ships/understanding-starships.md
+      - ships/military-ships.md
+      - ships/ship-components.md
     - 'Game Mastering': game-mastering.md
     - 'Setting and Lore': settinglore.md
 theme: windmill-dark
