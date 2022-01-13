@@ -16,7 +16,7 @@ nav:
       - Operative: classes/operative.md
       - Scientist: classes/scientist.md
       - Soldier : classes/soldier.md
-      - Roughneck: classes/roughneck.md
+      - Worker: classes/worker.md
     - Skills: skills.md
     - Feats: feats.md
     - Equipment: 

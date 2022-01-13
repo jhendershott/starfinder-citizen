@@ -1,23 +1,21 @@
 # Envoy
+![Envoy](../images/classes/envoy.jpg)
+
 Merchants, entrepreneurs, actors, amdassadors, politicians, con artists, ship captains. All of the them have great charisma, the capacity to ispire, terrorize or deceive others, and a deep knowledge of people, their culture and their traditions.
 
 Skilled manipulators and tacticians, where others succeed using weapons, they excel using only their words.
 
-Playing an Envoy means being the tactician and the smooth talker of the group. A skilled envoy can remove himself and his party from almost danger without firing a single shot.
+Playing an Envoy means being the tactician and the smooth talker of the group. A skilled envoy can remove himself and his party from almost danger without firing a single shot, but will if the necessity arises.
 
-![Multicorp Human](../images/classes/envoy.webp)
+<strong>Hit Points:</strong> 6
 
 <strong>Stamina Points:</strong> 6 + Constitution Modifier
-
-<strong>HP:</strong> 6
-
-### Differences with Starfinder
-Envoys in Starfinder are a bit of a do-it-all. They're good at social situations, but excel in fighting and technical feats too.   
-In SC:RG Envoys are really good in every discipline that requires smooth-talking, but less adept in other fields.
 
 ## Key Ability Score
 
 Your Charisma helps you succeed in many social situations and makes a number of your improvisations more effective, so Charisma is your key ability score.
+
+Dexterity will make the player a better ranged fighter.
 
 A high Intelligence score improves all of your skills.
 
@@ -41,6 +39,22 @@ A high Intelligence score improves all of your skills.
 - Sense Motive (Wis)
 - Sleight of Hand (Dex)
 - Stealth (Dex)
+
+## Proficiencies
+
+**Armor Proficiency**
+
+- Light Armor
+
+**Weapon Proficiency**
+
+- Basic Melee Weapons
+- Grenades
+- Small Arms
+
+**Spaceship Proficiency**
+
+- Soon™
 
 ## Leveling
 | Class Level | Base Attack Bonus | Fort Save Bonus | Ref Save Bonus | Will Save Bonus | Class Features |

@@ -1,29 +1,50 @@
 # Engineer
+![Engineer](../images/classes/engineer.jpg)
 
-You are a master of machines, from advanced supercomputers to simple magnetic engines. Understanding how these devices work gives you insight into the world around you, allowing you to make the most of your gear, circumvent hardened defenses, and even take over remote systems. Your programming skill also gives you the ability to create a powerful ally, in the form of either an implanted artificial intelligence or a robotic drone, which can assist you with a variety of tasks. If there’s a computer or machine that needs to be fixed, bypassed, or destroyed, you’re the first on the scene. Whether you’re a skilled scientist, a starship engineer, or a battlefield technician, you’re no stranger to combat—but you find it much more reasonable to have your AI or drone do the fighting for you.
+You are a master of machines, from advanced supercomputers to simple magnetic engines. Understanding how these devices work gives you insight into the world around you, allowing you to make the most of your gear, circumvent hardened defenses, and even take over remote systems.
+
+Your programming skill also gives you the ability to create a powerful ally, in the form of either an implanted artificial intelligence or a robotic drone, which can assist you with a variety of tasks. If there’s a computer or machine that needs to be fixed, bypassed, or destroyed, you’re the first on the scene. Whether you’re a skilled scientist, a starship engineer, or a battlefield technician, you’re no stranger to combat—but you find it much more reasonable to have your AI or drone do the fighting for you.
 
 <strong>Hit Points:</strong> 6
 
 <strong>Stamina Points:</strong> 6 + Constitution Modifier
 
 ## Key Ability Score
-You rely on your Intelligence for your knowledge, skills, and technical know-how, so Intelligence is your key ability score. A high Dexterity score makes your ranged attacks more accurate, should you engage in combat.
+
+You rely on your Intelligence for your knowledge, skills, and technical know-how, so Intelligence is your key ability score. 
+
+A high Dexterity score makes your ranged attacks more accurate, should you engage in combat.
 
 ## Class Skills
-Skill Ranks Per Level: 4 + Intelligence Modifier
 
-Athletics (Str), Computers (Int), Engineering (Int), Medicine (Int), Perception (Wis), Physical Science (Int), Piloting (Dex), Profession (Cha, Int, or Wis)
+<strong>Skill Ranks Per Level:</strong> 4 + Intelligence Modifier
+
+- Athletics (Str)
+- Computers (Int)
+- Engineering (Int)
+- Medicine (Int)
+- Perception (Wis)
+- Physical Science (Int)
+- Piloting (Dex)
+- Profession (Cha, Int, or Wis)
 
 ## Proficiencies
-Armor: Light Armor Proficiency
 
-Weapon: Basic melee weapon proficiency, grenades, small arms
+**Armor Proficiency**
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+- Light Armor Proficiency
 
+**Weapon Proficiency**
+
+- Basic Melee Weapons
+- Grenades
+- Small Arms
+
+**Spaceship Proficiency**
+
+- Soon™
+
+## Leveling
 |Class Level |	Base Attack Bonus |	Fort Save Bonus |	Ref Save Bonus|	Will Save Bonus	|Class Features |
 | ----------- | ----------- |----------- |----------- |----------- |----------- |
 |1st |	+0 |	+2 |	+2 |	+0 |	Artificial intelligence, bypass +1, custom rig |
