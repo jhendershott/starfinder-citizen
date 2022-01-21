@@ -35,6 +35,9 @@
           {title: "Mining", url: "#_top", children: [
               {title: "Location Types", url: "#location-types" },
               {title: "Prospecting Process", url: "#prospecting-process" },
+              {title: "DC Modifiers and Generation", url: "#dc-modifiers-and-generation" },
+              {title: "Deposit Composition", url: "#deposit-composition" },
+              {title: "Asteroid Composition", url: "#asteroid-composition" },
           ]},
         ];
 
@@ -94,196 +97,819 @@ Moon Surface(M)</p>
 <h2 id="prospecting-process">Prospecting Process</h2>
 <p>Standard operating procedures are required to provide safe and effective mining of a given area that will undoubtedly be wrought with danger and risk.</p>
 <p>Whether you're moving across the surface of a high gravity planet or through a densely packed astroid belt your pilot will have to successfully navigate you close enough to the surface or between asteroid for the scan. A ship pilot must make a successful Pilot skill check. The DC of the check will be 10 + Ship Size Modifier + Situation Modifier. If the Pilot check succeeds, then move on to the prospecting phase of mining. If the Pilot Check fails then roll 1d20 on the Pilot incident table.</p>
-<p>Ship Size Modifiers
-| Size | DC Modifier|
-|------|------------|
-| Snub | - 2 |
-| Small | + 0 |
-| Medium | +2 | 
-| Large | +6 |
-| Captital| + 10|</p>
-<p>Pilot Situation Modifiers
-| Situation | DC Modifier|
-|-----------|---------|
-| Light Gravity (Moon Surface) | - 2 |
-| Medium Graity (Planet Surface) | +0 | 
-| High Gravity (Large or dense planetary surface) | +2|
-| Low visibility (nebula or atmospheric) | +2 |
-| Asteroid Inner Belt | +4 | 
-| Asteroid Outer Belt | +2 |
-| Uncharted area/No Mining claim | +2 |</p>
-<p>Pilot Incident Table
-| Roll | Incident|
-|------|---------|
-| 1-2 | Collision! Roll on the Critical Damage (see Star Finder Core-Rulebook Chapter 9 Section Damage)
-| 3-10| Pilot navigated into a particularly dense area prospecting DC is increased by +4|
-|11-15| Moving through the area took longer than expected, roll to add 1d6 hours to the expedition |
-|16-20| That was close, you made it through this one unscathed|</p>
+<h2 id="dc-modifiers-and-generation">DC Modifiers and Generation</h2>
+<h4 id="ship-size-modifiers">Ship Size Modifiers</h4>
+<table>
+<thead>
+<tr>
+<th>Size</th>
+<th>DC Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Snub</td>
+<td>- 2</td>
+</tr>
+<tr>
+<td>Small</td>
+<td>+ 0</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Large</td>
+<td>+6</td>
+</tr>
+<tr>
+<td>Captital</td>
+<td>+ 10</td>
+</tr>
+</tbody>
+</table>
+<h4 id="pilot-situation-modifiers">Pilot Situation Modifiers</h4>
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>DC Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Light Gravity (Moon Surface)</td>
+<td>- 2</td>
+</tr>
+<tr>
+<td>Medium Graity (Planet Surface)</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>High Gravity (Large or dense planetary surface)</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Low visibility (nebula or atmospheric)</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Asteroid Inner Belt</td>
+<td>+4</td>
+</tr>
+<tr>
+<td>Asteroid Outer Belt</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Uncharted area/No Mining claim</td>
+<td>+2</td>
+</tr>
+</tbody>
+</table>
+<h4 id="pilot-incident-table">Pilot Incident Table</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Incident</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-2</td>
+<td>Collision! Roll on the Critical Damage (see Star Finder Core-Rulebook Chapter 9 Section Damage)</td>
+</tr>
+<tr>
+<td>3-10</td>
+<td>Pilot navigated into a particularly dense area prospecting DC is increased by +4</td>
+</tr>
+<tr>
+<td>11-15</td>
+<td>Moving through the area took longer than expected, roll to add 1d6 hours to the expedition</td>
+</tr>
+<tr>
+<td>16-20</td>
+<td>That was close, you made it through this one unscathed</td>
+</tr>
+</tbody>
+</table>
 <p>Once the Pilot navigates to the area either a science officer, or in the case of a Misc Prospector the pilot will make a Sensor Check to scan for nearby  deposits. Roll a sensor check against a DC 15 + Prospecting Modifier</p>
-<p>Prospecting Modifiers
-| Situation | DC Modifier |
-|-----------|----------|
-|Scanner operator worked more than 6 hours| +2 |
-|Asteroid Fields | -2 |
-|Astroid Inner Belt | -0 |
-|Asteroid Outer Belt| +2 |
-|Planet Surface| +2 |
-|Moon Surface| +0 |</p>
+<h4 id="prospecting-modifiers">Prospecting Modifiers</h4>
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>DC Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scanner operator worked more than 6 hours</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Asteroid Fields</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Astroid Inner Belt</td>
+<td>-0</td>
+</tr>
+<tr>
+<td>Asteroid Outer Belt</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Planet Surface</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Moon Surface</td>
+<td>+0</td>
+</tr>
+</tbody>
+</table>
 <p>Once a successful prospect role has been found role on the tables below to determine the deposit type, material, and yield of the deposit that you're mining. Then determine the number of cluster by rolling 1d8, then the number of Cargu Units 1d6 you have collected. Once you've collected it you can continue to search with a new Pilot Skill Check. Then you can take the material either to refinement or direct sale.</p>
-<p>Deposit Type Table
-|Roll | Moon | Planet |Astroid Field | Inner Belt | Outer Belt|
-|-----|--------|-----|-----|
-| 1 |Felsic|Granite|S-Type|E-Type|E-Type|
-| 2 |Felsic|Granite|S-Type|E-Type|E-Type|
-| 3 |Atacamite|Gniess|S-Type|M-Type|E-Type|
-| 4 |Atacamite|Gneiss|S-Type|M-Type|E-Type|
-| 5 |Granite|Gneiss|C-Type|M-Type|M-Type|
-| 6 |Granite|Igneous|C-Type|M-Type|M-Type|
-| 7 |Gneiss|Igenous|C-Type|P-Type|M-Type|
-| 8 |Gneiss|Igneous|C-Type|P-Type|M-Type|
-| 9 |Igneous|Quartzite|M-Type|P-Type|M-Type|
-| 10 |Igneous|Quarzite|M-Type|P-Type|P-Type|
-| 11 |Quartzite|Quarzite|M-Type|P-Type|P-Type|
-| 12 |Quartzite|Obsidian|M-Type|P-Type|P-Type|
-| 13 |Shale|Obsidian|P-Type|Q-Type|P-Type|
-| 14 |Shale|Obsidian|P-Type|Q-Type|P-Type|
-| 15 |Obsidian|Quantanium|P-Type|Q-Type|P-Type|
-| 16 |Obsidian|Quantanium|P-Type|Q-Type|Q-Type|
-| 17 |Obistian|Quantanium|P-Type|Q-Type|Q-Type|
-| 18 |Quantanium|Quantanium|Q-Type|Q-Type|Q-Type|
-| 19 |Quantanium|Quantanium|Q-Type|Q-Type|Q-Type|
-| 20 |Quantanium|Quantanium|Q-Type|Q-Type|Q-Type|</p>
-<h3 id="deposit-composition">Deposit Composition</h3>
-<p>Atacamite Deposit
-| Roll | Material |
-|------|----------|
-| 1-2 | Inert Materials |
-| 3-6 | Quartz |
-| 7-10 | Beryl |
-| 11-14 | Diamond |
-| 15-18 | Agricium |
-| 19-20 | Taranite |</p>
-<p>Felsic Deposit
-| Roll | Material |
-|------|----------|
-| 1-7 | Inert Materials |
-| 8-11| Quartz |
-| 12-16 | Tungsten |
-| 17-19 | Hephaestenite |
-| 20 | Bexalite |</p>
-<p>Gneiss Deposit
-| Roll | Material |
-|------|----------|
-| 1-2 | Inert Materials |
-| 3-4 | Aluminum |
-| 5-6 | Tungsten |
-| 7-9 | Beryl |
-| 10-14| Diamond |
-| 15-18| Agricium |
-| 19-20 | Taranite |</p>
-<p>Granite Deposit
-| Roll | Material |
-|------|----------|
-| 1-2 | Inert Materials |
-| 3-4 | Corundum |
-| 5-7 | Tungsten |
-| 8-11 | Copper |
-| 12-16 | Diamond |
-| 17-18 | Agricium |
-| 19-20 | Laranite |</p>
-<p>Igneous Deposit
-| Roll | Material |
-|------|----------|
-| 1-4 | Inert Materials |
-| 5-7 | Tungsten |
-| 8-10 | Copper |
-| 11-13 | Gold |
-| 14-16 | Titanium |
-| 17-20 | Taranite |</p>
-<p>Obsidian Deposit
-| Roll | Material |
-|------|----------|
-| 1-3| Inert Materials |
-| 4-7 | Corundum |
-| 8-11| Beryl |
-| 12-15 | Diamond |
-| 16-18 | Hephaestanite |
-| 19-20 | Bexalite |</p>
-<p>Quantanium Deposit
-| Roll | Material |
-|------|----------|
-| 1 | Inert Materials |
-| 2-4|  Aluminum |
-| 5-8 | Quartz |
-| 9-13 | Beryl |
-| 14-15 | Borase |
-| 16-20 | Quantanium |</p>
-<p>Quartzite Deposit
-| Roll | Material |
-|------|----------|
-| 1-2 | Inert Materials |
-| 3-7 | Quartz |
-| 8-10 | Beryl |
-| 11-13 | Copper |
-| 14-16 | Gold |
-| 17-18 | Diamond |
-| 19-20 | Taranite |</p>
-<p>Shale Deposit
-| Roll | Material |
-|------|----------|
-| 1-2 | Inert Materials |
-| 3-6 | Aluminum |
-| 7-9 | Gold |
-| 10-14 | Titanium |
-| 15-17 | Agricium |
-| 18-20 | Laranite |</p>
-<h3 id="asteroid-composition">Asteroid Composition</h3>
-<p>C-Type
-| Roll | Material |
-|------|----------|
-| 1-10 | Inert Materials |
-| 11-16 | Aluminum |
-| 17-19 | Laranite |
-| 20  | Quantanium |</p>
-<p>E-Type
-| Roll | Material |
-|------|----------|
-| 1-10 | Inert Materials |
-| 10-15 | Corundum |
-| 16-18 | Gold |
-| 17-19 | Diamond |
-| 20  | Borase |</p>
-<p>M-Type
-| Roll | Material |
-|------|----------|
-| 1-5 | Inert Materials |
-| 6-12 | Tungsten |
-| 14-17 | Haphaestanite |
-| 18-20  | Laranite |</p>
-<p>P-Type
-| Roll | Material |
-|------|----------|
-| 1-3 | Inert Materials |
-| 4-9 | Corundum |
-| 10-14 | Aluminum |
-| 15-17 | Diamond |
-| 18-19 | Titanium |
-| 20  | Bexalite |</p>
-<p>Q-Type
-| Roll | Material |
-|------|----------|
-| 1-2 | Inert Materials |
-| 3-5 | Quartz |
-| 6-9 | Beryl |
-| 10-15 | Borase |
-| 16-20  | Quantanium |</p>
-<p>S-Type
-| Roll | Material |
-|------|----------|
-| 1-7 | Inert Materials |
-| 8-11 | Copper |
-| 12-16| Titanium |
-| 17-20 | Borase |</p>
+<h4 id="deposit-type-table">Deposit Type Table</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Moon</th>
+<th>Planet</th>
+<th>Astroid Field</th>
+<th>Inner Belt</th>
+<th>Outer Belt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Felsic</td>
+<td>Granite</td>
+<td>S-Type</td>
+<td>E-Type</td>
+<td>E-Type</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Felsic</td>
+<td>Granite</td>
+<td>S-Type</td>
+<td>E-Type</td>
+<td>E-Type</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Atacamite</td>
+<td>Gniess</td>
+<td>S-Type</td>
+<td>M-Type</td>
+<td>E-Type</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atacamite</td>
+<td>Gneiss</td>
+<td>S-Type</td>
+<td>M-Type</td>
+<td>E-Type</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Granite</td>
+<td>Gneiss</td>
+<td>C-Type</td>
+<td>M-Type</td>
+<td>M-Type</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Granite</td>
+<td>Igneous</td>
+<td>C-Type</td>
+<td>M-Type</td>
+<td>M-Type</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Gneiss</td>
+<td>Igenous</td>
+<td>C-Type</td>
+<td>P-Type</td>
+<td>M-Type</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Gneiss</td>
+<td>Igneous</td>
+<td>C-Type</td>
+<td>P-Type</td>
+<td>M-Type</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Igneous</td>
+<td>Quartzite</td>
+<td>M-Type</td>
+<td>P-Type</td>
+<td>M-Type</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Igneous</td>
+<td>Quarzite</td>
+<td>M-Type</td>
+<td>P-Type</td>
+<td>P-Type</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Quartzite</td>
+<td>Quarzite</td>
+<td>M-Type</td>
+<td>P-Type</td>
+<td>P-Type</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Quartzite</td>
+<td>Obsidian</td>
+<td>M-Type</td>
+<td>P-Type</td>
+<td>P-Type</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Shale</td>
+<td>Obsidian</td>
+<td>P-Type</td>
+<td>Q-Type</td>
+<td>P-Type</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Shale</td>
+<td>Obsidian</td>
+<td>P-Type</td>
+<td>Q-Type</td>
+<td>P-Type</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Obsidian</td>
+<td>Quantanium</td>
+<td>P-Type</td>
+<td>Q-Type</td>
+<td>P-Type</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Obsidian</td>
+<td>Quantanium</td>
+<td>P-Type</td>
+<td>Q-Type</td>
+<td>Q-Type</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Obistian</td>
+<td>Quantanium</td>
+<td>P-Type</td>
+<td>Q-Type</td>
+<td>Q-Type</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Quantanium</td>
+<td>Quantanium</td>
+<td>Q-Type</td>
+<td>Q-Type</td>
+<td>Q-Type</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Quantanium</td>
+<td>Quantanium</td>
+<td>Q-Type</td>
+<td>Q-Type</td>
+<td>Q-Type</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Quantanium</td>
+<td>Quantanium</td>
+<td>Q-Type</td>
+<td>Q-Type</td>
+<td>Q-Type</td>
+</tr>
+</tbody>
+</table>
+<h2 id="deposit-composition">Deposit Composition</h2>
+<h4 id="atacamite-deposit">Atacamite Deposit</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-2</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>3-6</td>
+<td>Quartz</td>
+</tr>
+<tr>
+<td>7-10</td>
+<td>Beryl</td>
+</tr>
+<tr>
+<td>11-14</td>
+<td>Diamond</td>
+</tr>
+<tr>
+<td>15-18</td>
+<td>Agricium</td>
+</tr>
+<tr>
+<td>19-20</td>
+<td>Taranite</td>
+</tr>
+</tbody>
+</table>
+<h4 id="felsic-deposit">Felsic Deposit</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-7</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>8-11</td>
+<td>Quartz</td>
+</tr>
+<tr>
+<td>12-16</td>
+<td>Tungsten</td>
+</tr>
+<tr>
+<td>17-19</td>
+<td>Hephaestenite</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Bexalite</td>
+</tr>
+</tbody>
+</table>
+<h4 id="gneiss-deposit">Gneiss Deposit</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-2</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>3-4</td>
+<td>Aluminum</td>
+</tr>
+<tr>
+<td>5-6</td>
+<td>Tungsten</td>
+</tr>
+<tr>
+<td>7-9</td>
+<td>Beryl</td>
+</tr>
+<tr>
+<td>10-14</td>
+<td>Diamond</td>
+</tr>
+<tr>
+<td>15-18</td>
+<td>Agricium</td>
+</tr>
+<tr>
+<td>19-20</td>
+<td>Taranite</td>
+</tr>
+</tbody>
+</table>
+<h4 id="granite-deposit">Granite Deposit</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-2</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>3-4</td>
+<td>Corundum</td>
+</tr>
+<tr>
+<td>5-7</td>
+<td>Tungsten</td>
+</tr>
+<tr>
+<td>8-11</td>
+<td>Copper</td>
+</tr>
+<tr>
+<td>12-16</td>
+<td>Diamond</td>
+</tr>
+<tr>
+<td>17-18</td>
+<td>Agricium</td>
+</tr>
+<tr>
+<td>19-20</td>
+<td>Laranite</td>
+</tr>
+</tbody>
+</table>
+<h4 id="igneous-deposit">Igneous Deposit</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-4</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>5-7</td>
+<td>Tungsten</td>
+</tr>
+<tr>
+<td>8-10</td>
+<td>Copper</td>
+</tr>
+<tr>
+<td>11-13</td>
+<td>Gold</td>
+</tr>
+<tr>
+<td>14-16</td>
+<td>Titanium</td>
+</tr>
+<tr>
+<td>17-20</td>
+<td>Taranite</td>
+</tr>
+</tbody>
+</table>
+<h4 id="obsidian-deposit">Obsidian Deposit</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-3</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>4-7</td>
+<td>Corundum</td>
+</tr>
+<tr>
+<td>8-11</td>
+<td>Beryl</td>
+</tr>
+<tr>
+<td>12-15</td>
+<td>Diamond</td>
+</tr>
+<tr>
+<td>16-18</td>
+<td>Hephaestanite</td>
+</tr>
+<tr>
+<td>19-20</td>
+<td>Bexalite</td>
+</tr>
+</tbody>
+</table>
+<h4 id="quantanium-deposit">Quantanium Deposit</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>2-4</td>
+<td>Aluminum</td>
+</tr>
+<tr>
+<td>5-8</td>
+<td>Quartz</td>
+</tr>
+<tr>
+<td>9-13</td>
+<td>Beryl</td>
+</tr>
+<tr>
+<td>14-15</td>
+<td>Borase</td>
+</tr>
+<tr>
+<td>16-20</td>
+<td>Quantanium</td>
+</tr>
+</tbody>
+</table>
+<h4 id="quartzite-deposit">Quartzite Deposit</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-2</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>3-7</td>
+<td>Quartz</td>
+</tr>
+<tr>
+<td>8-10</td>
+<td>Beryl</td>
+</tr>
+<tr>
+<td>11-13</td>
+<td>Copper</td>
+</tr>
+<tr>
+<td>14-16</td>
+<td>Gold</td>
+</tr>
+<tr>
+<td>17-18</td>
+<td>Diamond</td>
+</tr>
+<tr>
+<td>19-20</td>
+<td>Taranite</td>
+</tr>
+</tbody>
+</table>
+<h4 id="shale-deposit">Shale Deposit</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-2</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>3-6</td>
+<td>Aluminum</td>
+</tr>
+<tr>
+<td>7-9</td>
+<td>Gold</td>
+</tr>
+<tr>
+<td>10-14</td>
+<td>Titanium</td>
+</tr>
+<tr>
+<td>15-17</td>
+<td>Agricium</td>
+</tr>
+<tr>
+<td>18-20</td>
+<td>Laranite</td>
+</tr>
+</tbody>
+</table>
+<h2 id="asteroid-composition">Asteroid Composition</h2>
+<h4 id="c-type">C-Type</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-10</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>11-16</td>
+<td>Aluminum</td>
+</tr>
+<tr>
+<td>17-19</td>
+<td>Laranite</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Quantanium</td>
+</tr>
+</tbody>
+</table>
+<h4 id="e-type">E-Type</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-10</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>10-15</td>
+<td>Corundum</td>
+</tr>
+<tr>
+<td>16-18</td>
+<td>Gold</td>
+</tr>
+<tr>
+<td>17-19</td>
+<td>Diamond</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Borase</td>
+</tr>
+</tbody>
+</table>
+<h4 id="m-type">M-Type</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-5</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>6-12</td>
+<td>Tungsten</td>
+</tr>
+<tr>
+<td>14-17</td>
+<td>Haphaestanite</td>
+</tr>
+<tr>
+<td>18-20</td>
+<td>Laranite</td>
+</tr>
+</tbody>
+</table>
+<h4 id="p-type">P-Type</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-3</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>4-9</td>
+<td>Corundum</td>
+</tr>
+<tr>
+<td>10-14</td>
+<td>Aluminum</td>
+</tr>
+<tr>
+<td>15-17</td>
+<td>Diamond</td>
+</tr>
+<tr>
+<td>18-19</td>
+<td>Titanium</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Bexalite</td>
+</tr>
+</tbody>
+</table>
+<h4 id="q-type">Q-Type</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-2</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>3-5</td>
+<td>Quartz</td>
+</tr>
+<tr>
+<td>6-9</td>
+<td>Beryl</td>
+</tr>
+<tr>
+<td>10-15</td>
+<td>Borase</td>
+</tr>
+<tr>
+<td>16-20</td>
+<td>Quantanium</td>
+</tr>
+</tbody>
+</table>
+<h4 id="s-type">S-Type</h4>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-7</td>
+<td>Inert Materials</td>
+</tr>
+<tr>
+<td>8-11</td>
+<td>Copper</td>
+</tr>
+<tr>
+<td>12-16</td>
+<td>Titanium</td>
+</tr>
+<tr>
+<td>17-20</td>
+<td>Borase</td>
+</tr>
+</tbody>
+</table>
 
   <br>
     
