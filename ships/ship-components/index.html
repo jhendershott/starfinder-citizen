@@ -36,6 +36,7 @@
               {title: "Power Plants", url: "#power-plants" },
               {title: "Shields", url: "#shields" },
               {title: "Ship Guns", url: "#ship-guns" },
+              {title: "Weapon Properties", url: "#weapon-properties" },
           ]},
         ];
 
@@ -62,11 +63,21 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
+    <div class="wm-article-nav pull-right">
+      <a href="../ship-modules/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../ship-modules/" class="btn btn-xs btn-link">
+        Ship Modules
+      </a>
+    </div>
+    
     <div class="wm-article-nav">
-      <a href="../military-ships/" class="btn btn-xs btn-default pull-left">
+      <a href="../understanding-starships/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../military-ships/" class="btn btn-xs btn-link">
-        Military Role Ships
+        Previous</a><a href="../understanding-starships/" class="btn btn-xs btn-link">
+        Understanding Starships
       </a>
     </div>
     
@@ -92,7 +103,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Lightning Power Ltd.</td>
 <td>ZapJet</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>4</td>
 <td>Civilian</td>
 <td>50</td>
@@ -101,7 +112,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Juno Starwerk</td>
 <td>Endurance</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>4</td>
 <td>Industrial</td>
 <td>55</td>
@@ -110,7 +121,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Juno Starwerk</td>
 <td>Roughneck</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>4</td>
 <td>Industrial</td>
 <td>60</td>
@@ -119,7 +130,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>HyperGen</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>4</td>
 <td>Military</td>
 <td>65</td>
@@ -128,7 +139,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Aegis Dynamics</td>
 <td>Charger</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>4</td>
 <td>Military</td>
 <td>70</td>
@@ -137,7 +148,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Sakura Sun</td>
 <td>LightBlossom</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Civilian</td>
 <td>75</td>
@@ -146,7 +157,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Lightning Power Ltd.</td>
 <td>PowerBolt</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Civilian</td>
 <td>80</td>
@@ -155,7 +166,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>ACOM</td>
 <td>SunFlare</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Competition</td>
 <td>85</td>
@@ -164,7 +175,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Juno Starwerk</td>
 <td>Fortitude</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Industrial</td>
 <td>90</td>
@@ -173,7 +184,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>OverDrive</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Military</td>
 <td>95</td>
@@ -182,7 +193,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Aegis Dynamics</td>
 <td>Regulus</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Military</td>
 <td>100</td>
@@ -191,7 +202,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Tyler Design and Tech</td>
 <td>SonicLite</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Stealth</td>
 <td>105</td>
@@ -200,7 +211,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Lightning Power Ltd.</td>
 <td>IonBurst</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>2</td>
 <td>Civilian</td>
 <td>110</td>
@@ -209,7 +220,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Sakura Sun</td>
 <td>MagnaBloom</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>2</td>
 <td>Civilian</td>
 <td>115</td>
@@ -218,7 +229,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>ACOM</td>
 <td>StarHeart</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>2</td>
 <td>Competition</td>
 <td>120</td>
@@ -227,7 +238,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>DynaFlux</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>2</td>
 <td>Military</td>
 <td>125</td>
@@ -236,7 +247,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Aegis Dynamics</td>
 <td>Fierell Cascade</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>2</td>
 <td>Military</td>
 <td>130</td>
@@ -245,7 +256,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Tyler Design and Tech</td>
 <td>DeltaMax</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>2</td>
 <td>Stealth</td>
 <td>135</td>
@@ -254,7 +265,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Sakura Sun</td>
 <td>WhiteRose</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>1</td>
 <td>Civilian</td>
 <td>140</td>
@@ -263,7 +274,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>ACOM</td>
 <td>LumaCore</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>1</td>
 <td>Competition</td>
 <td>145</td>
@@ -272,7 +283,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Juno Starwerk</td>
 <td>Breton</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>1</td>
 <td>Industrial</td>
 <td>150</td>
@@ -281,7 +292,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>JS-300</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>1</td>
 <td>Military</td>
 <td>155</td>
@@ -290,7 +301,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Aegis Dynamics</td>
 <td>QuadraCell</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>1</td>
 <td>Military</td>
 <td>160</td>
@@ -299,7 +310,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Tyler Design and Tech</td>
 <td>Slipstream</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>1</td>
 <td>Stealth</td>
 <td>165</td>
@@ -308,7 +319,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Lightning Power Ltd.</td>
 <td>SparkJet</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>4</td>
 <td>Civilian</td>
 <td>200</td>
@@ -317,7 +328,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Juno Starwerk</td>
 <td>Trommel</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>4</td>
 <td>Industrial</td>
 <td>205</td>
@@ -326,7 +337,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>ExoGen</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>4</td>
 <td>Military</td>
 <td>210</td>
@@ -335,7 +346,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Aegis Dynamics</td>
 <td>Vortex</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>4</td>
 <td>Military</td>
 <td>215</td>
@@ -344,7 +355,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Sakura Sun</td>
 <td>DayBreak</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Civilian</td>
 <td>220</td>
@@ -353,7 +364,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Lightning Power Ltd.</td>
 <td>FullForce</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Civilian</td>
 <td>225</td>
@@ -362,7 +373,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>ACOM</td>
 <td>SolarFlare</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Competition</td>
 <td>230</td>
@@ -371,7 +382,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Juno Starwerk</td>
 <td>Diligence</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Industrial</td>
 <td>235</td>
@@ -380,7 +391,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Aegis Dynamics</td>
 <td>Maelstrom</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Military</td>
 <td>240</td>
@@ -389,7 +400,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>TurboDrive</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Military</td>
 <td>245</td>
@@ -398,7 +409,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Tyler Design and Tech</td>
 <td>Cirrus</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Stealth</td>
 <td>250</td>
@@ -407,7 +418,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Lightning Power Ltd.</td>
 <td>IonSurge</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Civilian</td>
 <td>255</td>
@@ -416,7 +427,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Sakura Sun</td>
 <td>Radiance</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Civilian</td>
 <td>260</td>
@@ -425,7 +436,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>ACOM</td>
 <td>StarBurn</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Competition</td>
 <td>265</td>
@@ -434,7 +445,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Juno Starwerk</td>
 <td>Sedulity</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Industrial</td>
 <td>270</td>
@@ -443,7 +454,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Aegis Dynamics</td>
 <td>Bolide</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Military</td>
 <td>275</td>
@@ -452,7 +463,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>UltraFlux</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Military</td>
 <td>280</td>
@@ -461,7 +472,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Tyler Design and Tech</td>
 <td>GammaMax</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Stealth</td>
 <td>285</td>
@@ -470,7 +481,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Sakura Sun</td>
 <td>Lotus</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>1</td>
 <td>Civilian</td>
 <td>290</td>
@@ -479,7 +490,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>ACOM</td>
 <td>LuxCore</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>1</td>
 <td>Competition</td>
 <td>295</td>
@@ -488,7 +499,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Juno Starwerk</td>
 <td>Genoa</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>1</td>
 <td>Industrial</td>
 <td>300</td>
@@ -497,7 +508,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>JS-400</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>1</td>
 <td>Military</td>
 <td>305</td>
@@ -506,7 +517,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Aegis Dynamics</td>
 <td>QuadraCell MT</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>1</td>
 <td>Military</td>
 <td>310</td>
@@ -515,7 +526,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Tyler Design and Tech</td>
 <td>Eclipse (power plant)</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>1</td>
 <td>Stealth</td>
 <td>315</td>
@@ -524,7 +535,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Aegis Dynamics</td>
 <td>Drassik</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>4</td>
 <td>Military</td>
 <td>415</td>
@@ -533,7 +544,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>SmartGen</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>4</td>
 <td>Military</td>
 <td>420</td>
@@ -542,7 +553,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Lightning Power Ltd.</td>
 <td>FullForce Pro</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>3</td>
 <td>Civilian</td>
 <td>425</td>
@@ -551,7 +562,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Sakura Sun</td>
 <td>NewDawn</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>3</td>
 <td>Civilian</td>
 <td>430</td>
@@ -560,7 +571,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Lightning Power Ltd.</td>
 <td>SparkJet Pro</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>3</td>
 <td>Civilian</td>
 <td>435</td>
@@ -569,7 +580,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Juno Starwerk</td>
 <td>Ginzel</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>3</td>
 <td>Industrial</td>
 <td>440</td>
@@ -578,7 +589,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Aegis Dynamics</td>
 <td>Centurion</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>3</td>
 <td>Military</td>
 <td>445</td>
@@ -587,7 +598,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>SuperDrive</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>3</td>
 <td>Military</td>
 <td>450</td>
@@ -596,7 +607,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Sakura Sun</td>
 <td>Celestial</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>2</td>
 <td>Civilian</td>
 <td>455</td>
@@ -605,7 +616,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Lightning Power Ltd.</td>
 <td>IonSurge Pro</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>2</td>
 <td>Civilian</td>
 <td>460</td>
@@ -614,7 +625,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Juno Starwerk</td>
 <td>Reliance</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>2</td>
 <td>Industrial</td>
 <td>465</td>
@@ -623,7 +634,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Aegis Dynamics</td>
 <td>Fulgur</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>2</td>
 <td>Military</td>
 <td>470</td>
@@ -632,7 +643,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>MegaFlux</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>2</td>
 <td>Military</td>
 <td>475</td>
@@ -641,7 +652,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Sakura Sun</td>
 <td>TigerLilly</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>1</td>
 <td>Civilian</td>
 <td>480</td>
@@ -650,7 +661,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Juno Starwerk</td>
 <td>Durango</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>1</td>
 <td>Industrial</td>
 <td>485</td>
@@ -659,7 +670,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Klaus and Werner</td>
 <td>JS-500</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>1</td>
 <td>Military</td>
 <td>490</td>
@@ -668,7 +679,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Aegis Dynamics</td>
 <td>QuadraCell MX</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>1</td>
 <td>Military</td>
 <td>495</td>
@@ -696,6 +707,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <th>Class</th>
 <th>Shield Points</th>
 <th>Regen</th>
+<th>Properties</th>
 <th>Cost</th>
 </tr>
 </thead>
@@ -703,571 +715,628 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Seal Corporation</td>
 <td>INK</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>4</td>
 <td>Civilian</td>
 <td>10</td>
 <td>1/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Yorm</td>
 <td>Falco</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>4</td>
 <td>Competition</td>
 <td>15</td>
 <td>1/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>Steward</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>4</td>
 <td>Industrial</td>
 <td>20</td>
 <td>1/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Gorgon Defender Industries</td>
 <td>SecureHyde</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>4</td>
 <td>Military</td>
 <td>25</td>
 <td>1/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Ascension Astro</td>
 <td>Cloak</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>4</td>
 <td>Stealth</td>
 <td>30</td>
 <td>1/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>5SA 'Rhada'</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Civilian</td>
 <td>35</td>
 <td>2/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Seal Corporation</td>
 <td>WEB</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Civilian</td>
 <td>40</td>
 <td>2/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Yorm</td>
 <td>Targa</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Competition</td>
 <td>45</td>
 <td>2/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>Bulwark</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Industrial</td>
 <td>50</td>
 <td>3/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Souli</td>
 <td>Suldrath</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Military</td>
 <td>55</td>
 <td>3/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Gorgon Defender Industries</td>
 <td>AllStop</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Military</td>
 <td>60</td>
 <td>3/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Ascension Astro</td>
 <td>Shimmer</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>3</td>
 <td>Stealth</td>
 <td>65</td>
 <td>2/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>6SA 'Arbiter'</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>2</td>
 <td>Civilian</td>
 <td>70</td>
 <td>3/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Seal Corporation</td>
 <td>HEX</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>2</td>
 <td>Civilian</td>
 <td>75</td>
 <td>3/min</td>
+<td>Powered 10</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>Guardian</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>2</td>
 <td>Industrial</td>
 <td>80</td>
 <td>3/min</td>
+<td>Powered 10</td>
 <td></td>
 </tr>
 <tr>
 <td>Yorm</td>
 <td>Jaghte</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>2</td>
 <td>Industrial</td>
 <td>85</td>
 <td>3/min</td>
+<td>Powered 10</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>ForceWall</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>2</td>
 <td>Military</td>
 <td>90</td>
 <td>3/min</td>
+<td>Powered 10</td>
 <td></td>
 </tr>
 <tr>
 <td>Ascension Astro</td>
 <td>Veil</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>2</td>
 <td>Stealth</td>
 <td>95</td>
 <td>3/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>7SA 'Concord'</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>1</td>
 <td>Civilian</td>
 <td>100</td>
 <td>3/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>Palisade</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>1</td>
 <td>Industrial</td>
 <td>105</td>
 <td>4/min</td>
+<td>Powered 5</td>
 <td></td>
 </tr>
 <tr>
 <td>Gorgon Defender Industries</td>
 <td>FR-66</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>1</td>
 <td>Military</td>
 <td>110</td>
 <td>4/min</td>
+<td>Powered 1</td>
 <td></td>
 </tr>
 <tr>
 <td>Ascension Astro</td>
 <td>Mirage</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>1</td>
 <td>Stealth</td>
 <td>115</td>
 <td>3/min</td>
+<td>Powered 10</td>
 <td></td>
 </tr>
 <tr>
 <td>Seal Corporation</td>
 <td>RPEL</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>4</td>
 <td>Civilian</td>
-<td>300</td>
+<td>150</td>
 <td>5/min</td>
+<td>Powered 15</td>
 <td></td>
 </tr>
 <tr>
 <td>Yorm</td>
 <td>Bamoty</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>4</td>
 <td>Competition</td>
-<td>305</td>
+<td>155</td>
 <td>5/min</td>
+<td>Powered 15</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>Armada</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>4</td>
 <td>Industrial</td>
-<td>310</td>
+<td>160</td>
 <td>5/min</td>
+<td>Powered 15</td>
 <td></td>
 </tr>
 <tr>
 <td>Gorgon Defender Industries</td>
 <td>SecureShield</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>4</td>
 <td>Military</td>
-<td>315</td>
+<td>165</td>
 <td>6/min</td>
+<td>Powered 20</td>
 <td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>5MA 'Chimalli'</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Civilian</td>
-<td>320</td>
+<td>170</td>
 <td>5/min</td>
+<td>Powered 15</td>
 <td></td>
 </tr>
 <tr>
 <td>Seal Corporation</td>
 <td>STOP</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Civilian</td>
-<td>325</td>
+<td>175</td>
 <td>5/min</td>
+<td>Powered 15</td>
 <td></td>
 </tr>
 <tr>
 <td>Yorm</td>
 <td>Trenta</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Competition</td>
-<td>330</td>
+<td>180</td>
 <td>5/min</td>
+<td>Powered 15</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>Aspis</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Industrial</td>
-<td>335</td>
+<td>185</td>
 <td>5/min</td>
+<td>Powered 15</td>
 <td></td>
 </tr>
 <tr>
 <td>Gorgon Defender Industries</td>
 <td>FullStop</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Industrial</td>
-<td>340</td>
+<td>190</td>
 <td>5/min</td>
+<td>Powered 15</td>
 <td></td>
 </tr>
 <tr>
 <td>Sukoran</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Military</td>
-<td>345</td>
+<td>195</td>
 <td>6/min</td>
+<td>Powered 20</td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <td>Ascension Astro</td>
 <td>Obscura</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>3</td>
 <td>Stealth</td>
-<td>350</td>
+<td>200</td>
 <td>5/min</td>
+<td>Powered 20</td>
 <td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>6MA 'Kozane'</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Civilian</td>
-<td>355</td>
+<td>205</td>
 <td>8/min</td>
+<td>Powered 30</td>
 <td></td>
 </tr>
 <tr>
 <td>Seal Corporation</td>
 <td>BLOC</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Civilian</td>
-<td>360</td>
+<td>210</td>
 <td>8/min</td>
+<td>Powered 30</td>
 <td></td>
 </tr>
 <tr>
 <td>Yorm</td>
 <td>Haltur</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Competition</td>
-<td>365</td>
+<td>215</td>
 <td>8/min</td>
+<td>Powered 30</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>Citadel</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Industrial</td>
-<td>370</td>
+<td>220</td>
 <td>8/min</td>
+<td>Powered 30</td>
 <td></td>
 </tr>
 <tr>
 <td>Gorgon Defender Industries</td>
 <td>CoverAll</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Military</td>
-<td>375</td>
+<td>225</td>
 <td>9/min</td>
+<td>Powered 40</td>
 <td></td>
 </tr>
 <tr>
 <td>Ascension Astro</td>
 <td>Sheut</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>2</td>
 <td>Stealth</td>
-<td>380</td>
+<td>230</td>
 <td>8/min</td>
+<td>Powered 30</td>
 <td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>7MA 'Lorica'</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>1</td>
 <td>Civilian</td>
-<td>385</td>
+<td>235</td>
 <td>8/min</td>
+<td>Powered 40</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>Rampart</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>1</td>
 <td>Industrial</td>
-<td>390</td>
+<td>240</td>
 <td>10/min</td>
+<td>Powered 30</td>
 <td></td>
 </tr>
 <tr>
 <td>Gorgon Defender Industries</td>
 <td>FR-76</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>1</td>
 <td>Military</td>
-<td>395</td>
+<td>240</td>
 <td>12/min</td>
+<td>Powered 50</td>
 <td></td>
 </tr>
 <tr>
 <td>Ascension Astro</td>
 <td>Umbra</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>1</td>
 <td>Stealth</td>
-<td>400</td>
+<td>240</td>
 <td>8/min</td>
+<td>Powered 30</td>
 <td></td>
 </tr>
 <tr>
 <td>Seal Corporation</td>
 <td>HAVEN</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>4</td>
 <td>Civilian</td>
-<td>500</td>
+<td>240</td>
 <td>16/min</td>
+<td>Powered 50</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>Ward</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>4</td>
 <td>Industrial</td>
-<td>505</td>
+<td>260</td>
 <td>16/min</td>
+<td>Powered 50</td>
 <td></td>
 </tr>
 <tr>
 <td>Gorgon Defender Industries</td>
 <td>SecureScreen</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>4</td>
 <td>Military</td>
-<td>510</td>
+<td>280</td>
 <td>16/min</td>
+<td>Powered 50</td>
 <td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>5CA 'Akura'</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>3</td>
 <td>Civilian</td>
-<td>515</td>
+<td>300</td>
 <td>16/min</td>
+<td>Powered 50</td>
 <td></td>
 </tr>
 <tr>
 <td>Seal Corporation</td>
 <td>GUARD</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>3</td>
 <td>Civilian</td>
-<td>520</td>
+<td>320</td>
 <td>16/min</td>
+<td>Powered 50</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>Stronghold</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>3</td>
 <td>Industrial</td>
-<td>525</td>
+<td>340</td>
 <td>16/min</td>
+<td>Powered 50</td>
 <td></td>
 </tr>
 <tr>
 <td>Gorgon Defender Industries</td>
 <td>SureStop</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>3</td>
 <td>Military</td>
-<td>530</td>
+<td>360</td>
 <td>16/min</td>
+<td>Powered 60</td>
 <td></td>
 </tr>
 <tr>
 <td>Ascension Astro</td>
 <td>Shroud</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>3</td>
 <td>Stealth</td>
-<td>535</td>
+<td>380</td>
 <td>16/min</td>
+<td>Powered 40</td>
 <td></td>
 </tr>
 <tr>
 <td>Seal Corporation</td>
 <td>ARMOR</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>2</td>
 <td>Civilian</td>
-<td>540</td>
+<td>400</td>
 <td>16/min</td>
+<td>Powered 50</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>Barbican</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>2</td>
 <td>Industrial</td>
-<td>545</td>
+<td>415</td>
 <td>16/min</td>
+<td>Powered 50</td>
 <td></td>
 </tr>
 <tr>
 <td>Gorgon Defender Industries</td>
 <td>FullBlock</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>2</td>
 <td>Military</td>
-<td>550</td>
+<td>430</td>
 <td>16/min</td>
+<td>Powered 60</td>
 <td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>7CA 'Nargun'</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>1</td>
 <td>Civilian</td>
-<td>555</td>
+<td>445</td>
 <td>32/min</td>
+<td>Powered 50</td>
 <td></td>
 </tr>
 <tr>
 <td>Basilisk</td>
 <td>Parapet</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>1</td>
 <td>Industrial</td>
-<td>560</td>
+<td>460</td>
 <td>32/min</td>
+<td>Powered 60</td>
 <td></td>
 </tr>
 <tr>
 <td>Gorgon Defender Industries</td>
 <td>FR-86</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>1</td>
 <td>Military</td>
-<td>565</td>
+<td>480</td>
 <td>32/min</td>
+<td>Powered 80</td>
 <td></td>
 </tr>
 <tr>
@@ -1278,6 +1347,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <td>Industrial</td>
 <td>600</td>
 <td>64/min</td>
+<td>Powered 100</td>
 <td></td>
 </tr>
 </tbody>
@@ -1291,6 +1361,8 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <th>Size</th>
 <th>Type</th>
 <th>Damage</th>
+<th>Range</th>
+<th>Properties</th>
 <th>Cost</th>
 </tr>
 </thead>
@@ -1298,749 +1370,957 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tr>
 <td>Associated Science and Development</td>
 <td>DR Model-XJ1 Repeater</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Distortion Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>3d4</td>
+<td>Distortion, Powered 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Joker Engineering</td>
 <td>Suckerpunch Cannon</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Distortion Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d6</td>
+<td>Distortion, Powered 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Hurston Dynamics</td>
 <td>Attrition-1 Repeater</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>4d4</td>
+<td>Energy, Powered 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Klaus and Werner</td>
 <td>CF-117 Bulldog Repeater</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>4d4</td>
+<td>Energy, Powered 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Vanduul Clans</td>
 <td>WEAK' Repeater</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>4d4</td>
+<td>Energy, Powered 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>Omnisky III Cannon</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d6</td>
+<td>Energy, Powered 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>M3A Cannon</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d6Energy, Powered 10</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Esperia</td>
 <td>Lightstrike I Cannon</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d6</td>
+<td>Energy, Powered 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Kroneg</td>
 <td>FL-11 Cannon</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d6</td>
+<td>Energy, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Hurston Dynamics</td>
 <td>Dominance-1 Scattergun</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Laser Scattergun</td>
-<td>-</td>
-<td>-</td>
+<td>2d10</td>
+<td>Energy, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Esperia</td>
 <td>Deadbolt I Cannon</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d6</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Gallenson Tactical Systems</td>
 <td>Tarantula GT-870 Mark 1 Cannon</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d6</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>KnightBridge Arms</td>
 <td>9-Series Longsword Cannon</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d6</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td>Behring Applied Technology</td>
-<td>"SW16BR1 ""Buzzsaw"" Repeater"</td>
-<td>S  1</td>
+<td>Behring Applied TechnolSW16BR1 ""Buzzsaw"" Repeater"</td>
+<td>S 1</td>
 <td>Ballistic Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>3d6</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Apocalypse Arms</td>
 <td>Havoc Scattergun</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Ballistic Scattergun</td>
-<td>-</td>
-<td>-</td>
+<td>3d6</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Apocalypse Arms</td>
 <td>Havoc Scattergun Sharkmouth Edition</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Ballistic Scattergun</td>
-<td>-</td>
-<td>-</td>
+<td>3d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Gallenson Tactical Systems</td>
 <td>YellowJacket GT-210 Gatling</td>
-<td>S  1</td>
+<td>S 1</td>
 <td>Ballistic Gatling</td>
-<td>-</td>
-<td>-</td>
+<td>4d6 hull</td>
+<td>Ballistic, Ammo 12</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Associated Science and Development</td>
 <td>DR Model-XJ2 Repeater</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Distortion Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>3d10</td>
+<td>Distortion, Powered 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>ATVS Repeater</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Distortion Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>3d10</td>
+<td>Distortion, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>EVSD Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Distortion Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Distortion, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Joker Engineering</td>
 <td>Suckerpunch-L Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Distortion Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Distortion, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>GVSR Repeater</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Energy, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Hurston Dynamics</td>
 <td>Attrition-2 Repeater</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Energy, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Klaus and Werner</td>
 <td>CF-227 Badger Repeater</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Energy, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Vanduul Clans</td>
 <td>WASP' Repeater</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Energy, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>Omnisky VI Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Energy, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>M4A Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Energy, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>MVSA Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Energy, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Esperia</td>
 <td>Lightstrike II Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Energy, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Kroneg</td>
 <td>FL-22 Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Energy, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Hurston Dynamics</td>
 <td>Dominance-2 Scattergun</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Laser Scattergun</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Energy, Powered 15</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>CVSA Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Esperia</td>
 <td>Deadbolt II Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Gallenson Tactical Systems</td>
 <td>Tarantula GT-870 Mark 2 Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>KnightBridge Arms</td>
 <td>10-Series Greatsword Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Apocalypse Arms</td>
 <td>Strife Mass Driver Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Mass Driver Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Ballistic, Ammo 10, Rail 1d8</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Klaus and Werner</td>
 <td>Sledge II Mass Driver Cannon</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Mass Driver Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Ballistic, Ammo 10, Rail 1d8</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>BRVS Repeater</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Ballistic Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>"SW16BR2 ""Sawbuck"" Repeater"</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Ballistic Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Apocalypse Arms</td>
 <td>Hellion Scattergun</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Ballistic Scattergun</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Apocalypse Arms</td>
 <td>Hellion Scattergun Sharkmouth Edition</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Ballistic Scattergun</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Gallenson Tactical Systems</td>
 <td>Scorpion GT-215 Gatling</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Ballistic Gatling</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Ballistic, Ammo 12</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Kruger Intergalactic</td>
 <td>Tigerstrike T-19P</td>
-<td>S  2</td>
+<td>S 2</td>
 <td>Ballistic Gatling</td>
-<td>-</td>
-<td>-</td>
+<td>6d8</td>
+<td>Ballistic, Ammo 12</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Associated Science and Development</td>
 <td>DR Model-XJ3 Repeater</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Distortion Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Distortion, Powered 20</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Joker Engineering</td>
 <td>Suckerpunch-XL Cannon</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Distortion Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Distortion, Powered 20</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Hurston Dynamics</td>
 <td>Attrition-3 Repeater</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Energy, Powered 20</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Klaus and Werner</td>
 <td>CF-337 Panther Repeater</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Energy, Powered 20</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>Omnisky IX Cannon</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Energy, Powered 20</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>M5A Cannon</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Energy, Powered 20</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Esperia</td>
 <td>Lightstrike III Cannon</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Energy, Powered 20</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Kroneg</td>
 <td>FL-33 Cannon</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Energy, Powered 20</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Kruger Intergalactic</td>
 <td>Quarreler Cannon</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Energy, Powered 20</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Hurston Dynamics</td>
 <td>Dominance-3 Scattergun</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Laser Scattergun</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Energy, Powered 20</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Esperia</td>
 <td>Deadbolt III Cannon</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Gallenson Tactical Systems</td>
 <td>Tarantula GT-870 Mark 3 Cannon</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>KnightBridge Arms</td>
 <td>11-Series Broadsword Cannon</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Klaus and Werner</td>
 <td>Sledge III Mass Driver Cannon</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Mass Driver Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Ballistic, Ammo 10, Rail 3d8</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>"SW16BR3 ""Shredder"" Repeater"</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Ballistic Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Apocalypse Arms</td>
 <td>Predator Scattergun</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Ballistic Scattergun</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Ballistic, Ammo 12</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Gallenson Tactical Systems</td>
 <td>Mantis GT-220 Gatling</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Ballistic Gatling</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Ballistic, Ammo 12</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Kruger Intergalactic</td>
 <td>Tigerstrike T-21 Gatling</td>
-<td>S  3</td>
+<td>S 3</td>
 <td>Ballistic Gatling</td>
-<td>-</td>
-<td>-</td>
+<td>10d8</td>
+<td>Ballistic, Ammo 12</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Preacher Armaments</td>
 <td>Salvation Distortion Scattergun</td>
 <td>S  4</td>
 <td>Distortion Scattergun</td>
-<td>-</td>
-<td>-</td>
+<td>3d4 x 10</td>
+<td>Distortion, Powered 25</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Hurston Dynamics</td>
 <td>Attrition-4 Repeater</td>
 <td>S  4</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>3d4 x 10</td>
+<td>Energy, Powered 25</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Klaus and Werner</td>
 <td>CF-447 Rhino Repeater</td>
 <td>S  4</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>3d4 x 10</td>
+<td>Energy, Powered 25</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>Omnisky XII Cannon</td>
 <td>S  4</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d4 x 10</td>
+<td>Energy, Powered 25</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>M6A Cannon</td>
 <td>S  4</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d4 x 10</td>
+<td>Energy, Powered 25</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Esperia</td>
 <td>Lightstrike IV Cannon</td>
 <td>S  4</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d4 x 10</td>
+<td>Energy, Powered 25</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>C-788 Cannon</td>
 <td>S  4</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d4 x 10</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Esperia</td>
 <td>Deadbolt IV Cannon</td>
 <td>S  4</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d4 x 10</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Apocalypse Arms</td>
 <td>Shade Repeater</td>
 <td>S  4</td>
 <td>Ballistic Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>3d4 x 10</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Apocalypse Arms</td>
 <td>Revenant Gatling</td>
 <td>S  4</td>
 <td>Ballistic Gatling</td>
-<td>-</td>
-<td>-</td>
+<td>3d4 x 10</td>
+<td>Ballistic, Ammo 12</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Preacher Armaments</td>
 <td>Absolution Distortion Scattergun</td>
 <td>S  5</td>
 <td>Distortion Scattergun</td>
-<td>-</td>
-<td>-</td>
+<td>3d6 x 10</td>
+<td>Distortion, Powered 30</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Hurston Dynamics</td>
 <td>Attrition-5 Repeater</td>
 <td>S  5</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>3d6 x 10</td>
+<td>Energy, Powered 30</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Klaus and Werner</td>
 <td>CF-557 Galdereen Repeater</td>
 <td>S  5</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>3d6 x 10</td>
+<td>Energy, Powered 30</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>Omnisky XV Cannon</td>
 <td>S  5</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d6 x 10</td>
+<td>Energy, Powered 30</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>M7A Cannon</td>
 <td>S  5</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d6 x 10</td>
+<td>Energy, Powered 30</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Esperia</td>
 <td>Lightstrike V Cannon</td>
 <td>S  5</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d6 x 10</td>
+<td>Energy, Powered 30</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Esperia</td>
 <td>Deadbolt V Cannon</td>
 <td>S  5</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>2d8 x 10</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Apocalypse Arms</td>
 <td>Eventide Repeater</td>
 <td>S  5</td>
 <td>Ballistic Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>2d8 x 10</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>AD5B Ballistic Gatling</td>
 <td>S  5</td>
 <td>Ballistic Gatling</td>
-<td>-</td>
-<td>-</td>
+<td>2d8 x 10</td>
+<td>Ballistic, Ammo 12</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Preacher Armaments</td>
 <td>Condemnation Distortion Scattergun</td>
 <td>S  6</td>
 <td>Distortion Scattergun</td>
-<td>-</td>
-<td>-</td>
+<td>3d8 x 10</td>
+<td>Distortion, Powered 40</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Hurston Dynamics</td>
 <td>Attrition-6 Repeater</td>
 <td>S  6</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>3d8 x 10</td>
+<td>Energy, Powered 40</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Klaus and Werner</td>
 <td>CF-667 Mammoth Repeater</td>
 <td>S  6</td>
 <td>Laser Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>3d8 x 10</td>
+<td>Energy, Powered 40</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Amon &amp; Reese Co.</td>
 <td>Omnisky XVIII Cannon</td>
 <td>S  6</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d8 x 10</td>
+<td>Energy, Powered 40</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>M8A Cannon</td>
 <td>S  6</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d8 x 10</td>
+<td>Energy, Powered 40</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Esperia</td>
 <td>Lightstrike VI Cannon</td>
 <td>S  6</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d8 x 10</td>
+<td>Energy, Powered 40</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Esperia</td>
 <td>Deadbolt VI Cannon</td>
 <td>S  6</td>
 <td>Ballistic Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d8 x 10</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Apocalypse Arms</td>
 <td>Nightfall Repeater</td>
 <td>S  6</td>
 <td>Ballistic Repeater</td>
-<td>-</td>
-<td>-</td>
+<td>3d8 x 10</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Apocalypse Arms</td>
 <td>Draugar Gatling</td>
 <td>S  6</td>
 <td>Ballistic Gatling</td>
-<td>-</td>
-<td>-</td>
+<td>3d8 x 10</td>
+<td>Ballistic, Ammo 10</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>M9A Cannon</td>
 <td>S  7</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d10 × 10</td>
+<td>Energy, Powered 50</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>SF7E Cannon</td>
 <td>S  7</td>
 <td>Laser Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>3d10 × 10</td>
+<td>Energy, Powered 50</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Behring Applied Technology</td>
 <td>SF7B Gatling</td>
 <td>S  7</td>
 <td>Ballistic Gatling</td>
-<td>-</td>
-<td>-</td>
+<td>4d10 x 10</td>
+<td>Ballistic, Ammo 12</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Klaus and Werner</td>
 <td>Destroyer Mass Driver Cannon</td>
-<td>S  10</td>
+<td>S 10</td>
 <td>Mass Driver Cannon</td>
-<td>-</td>
-<td>-</td>
+<td>6d12 × 10</td>
+<td>Ballistic, Ammo 16, Rail 2d8*10</td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
+<h2 id="weapon-properties">Weapon Properties</h2>
+<ul>
+<li>Ammo: Weapons with Ammo do not draw on the power plant to fire however they rely on a limited amount of ammunition. To simplify working dealing with large amounts of ammunition each weapon is given ammo DC, after firing you will roll a d20 and if your roll is below the DC you will lower the ammo of the ship. </li>
+</ul>
+<p>Example: The P52 Merlin fires it's nose gatling and has an ammo dc of 12 and a total ammo of 10. After firing the pilot will roll an ammo check and rolls an 8, bringing the ammo down to a 9. The next round they fire and roll a 13, the ammo stays at a 9 giving the pilot another another round of fire.</p>
+<p>Alternatively: For players that like less randomness in their games they can take 1.5 x the ammo score on the ship as their total rounds of sustained fire. Could potentially give you more or less fire than this. </p>
+<ul>
+<li>Ballistic: Ballistic weapons fire a solid or explosive projectile at a high speed, using the ship's limited store of ammunition. Ballistic weapons penetrate enemy shields and deal the remaining damage diretly to the hull. Half damage should go to shield (rounded up) and half to the hull.  </li>
+</ul>
+<p>Example: the P-52 gatling deals 3d6 damage and rolls a 15, 8 would hit the shields and 7 would hit the hull, until the shield has been depleted.</p>
+<ul>
+<li>Distortion: Distortion weapons are a unique derivative of energy weapons that inflict intense electrical discharges rather than thermal damage. Distortion weapons never damage HP, All damage is first focused on the shield. Once the shield are down the damage is delivered directly to the PPU points</li>
+</ul>
+<p>Example: a cutlass blue has has distorion cannons equipped and does 2 x 6d8 distortion damage (lets pretend it's max damage of 96 damage) to a Constellation Andromeda which has 50 remaining shield points and 220 PPU points. 50 damage would hit the shields and the remaining 46 would take the PPU to 174. </p>
+<ul>
+<li>
+<p>Energy: Energy weapons are Lasers focus light through lens arrays into a maser bottle. From there they are used to create neutron guns, masers, plasma, or other energy types to damage both shields and ships. The shield systems take damage from energy systems and once the shields are temporarily depleted, the energy weapons starts melting the targeted ship. Specifically Damage is dealt to shields first, then to hull hp.</p>
+</li>
+<li>
+<p>Powered: Energy weapons do not take any ammunition however they are powered by the powerplant, and produces additional load. If a ship takes distortion damage to the PPU then the given engineer will have to prioritize which if they want to power their guns or thrusters. </p>
+</li>
+</ul>
 
   <br>
     
@@ -2052,11 +2332,21 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
+    <div class="wm-article-nav pull-right">
+      <a href="../ship-modules/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../ship-modules/" class="btn btn-xs btn-link">
+        Ship Modules
+      </a>
+    </div>
+    
     <div class="wm-article-nav">
-      <a href="../military-ships/" class="btn btn-xs btn-default pull-left">
+      <a href="../understanding-starships/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../military-ships/" class="btn btn-xs btn-link">
-        Military Role Ships
+        Previous</a><a href="../understanding-starships/" class="btn btn-xs btn-link">
+        Understanding Starships
       </a>
     </div>
     
