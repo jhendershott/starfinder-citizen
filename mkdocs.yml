@@ -37,6 +37,9 @@ nav:
       - Commercial Ships: ships/commercial-ships.md
       - Industrial Ships: ships/industrial-ships.md
       - Civilian Ships: ships/civilian-ships.md
-    - 'Game Mastering': game-mastering.md
-    - 'Setting and Lore': settinglore.md
+    - 'Game Mastering': 
+      - Mining: game-master-mining.md
+    - 'Setting and Lore': 
+      - Systems:
+        - Stanton: setting-and-lore/systems/stanton.md
 theme: windmill-dark
