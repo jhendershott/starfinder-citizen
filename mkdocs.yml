@@ -38,7 +38,7 @@ nav:
       - Industrial Ships: ships/industrial-ships.md
       - Civilian Ships: ships/civilian-ships.md
     - 'Game Mastering': 
-      - Mining: game-master-mining.md
+      - Mining: game-master/mining.md
     - 'Setting and Lore': 
       - Systems:
         - Stanton: setting-and-lore/systems/stanton.md

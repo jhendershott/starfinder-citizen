@@ -14,7 +14,10 @@ Standard operating procedures are required to provide safe and effective mining 
 
 Whether you're moving across the surface of a high gravity planet or through a densely packed astroid belt your pilot will have to successfully navigate you close enough to the surface or between asteroid for the scan. A ship pilot must make a successful Pilot skill check. The DC of the check will be 10 + Ship Size Modifier + Situation Modifier. If the Pilot check succeeds, then move on to the prospecting phase of mining. If the Pilot Check fails then roll 1d20 on the Pilot incident table.
 
-Ship Size Modifiers
+## DC Modifiers and Generation
+
+#### Ship Size Modifiers
+
 | Size | DC Modifier|
 |------|------------|
 | Snub | - 2 |
@@ -23,7 +26,8 @@ Ship Size Modifiers
 | Large | +6 |
 | Captital| + 10|
 
-Pilot Situation Modifiers
+#### Pilot Situation Modifiers
+
 | Situation | DC Modifier|
 |-----------|---------|
 | Light Gravity (Moon Surface) | - 2 |
@@ -34,7 +38,8 @@ Pilot Situation Modifiers
 | Asteroid Outer Belt | +2 |
 | Uncharted area/No Mining claim | +2 |
 
-Pilot Incident Table
+#### Pilot Incident Table
+
 | Roll | Incident|
 |------|---------|
 | 1-2 | Collision! Roll on the Critical Damage (see Star Finder Core-Rulebook Chapter 9 Section Damage)
@@ -45,7 +50,8 @@ Pilot Incident Table
 
 Once the Pilot navigates to the area either a science officer, or in the case of a Misc Prospector the pilot will make a Sensor Check to scan for nearby  deposits. Roll a sensor check against a DC 15 + Prospecting Modifier
 
-Prospecting Modifiers
+#### Prospecting Modifiers
+
 | Situation | DC Modifier |
 |-----------|----------|
 |Scanner operator worked more than 6 hours| +2 |
@@ -57,9 +63,10 @@ Prospecting Modifiers
 
 Once a successful prospect role has been found role on the tables below to determine the deposit type, material, and yield of the deposit that you're mining. Then determine the number of cluster by rolling 1d8, then the number of Cargu Units 1d6 you have collected. Once you've collected it you can continue to search with a new Pilot Skill Check. Then you can take the material either to refinement or direct sale.
 
-Deposit Type Table
+#### Deposit Type Table
+
 |Roll | Moon | Planet |Astroid Field | Inner Belt | Outer Belt|
-|-----|--------|-----|-----|
+|-----|------|--------|--------------|-----|-----|
 | 1 |Felsic|Granite|S-Type|E-Type|E-Type|
 | 2 |Felsic|Granite|S-Type|E-Type|E-Type|
 | 3 |Atacamite|Gniess|S-Type|M-Type|E-Type|
@@ -81,9 +88,9 @@ Deposit Type Table
 | 19 |Quantanium|Quantanium|Q-Type|Q-Type|Q-Type|
 | 20 |Quantanium|Quantanium|Q-Type|Q-Type|Q-Type|
 
-### Deposit Composition
+## Deposit Composition
 
-Atacamite Deposit
+#### Atacamite Deposit
 | Roll | Material |
 |------|----------|
 | 1-2 | Inert Materials |
@@ -93,7 +100,7 @@ Atacamite Deposit
 | 15-18 | Agricium |
 | 19-20 | Taranite |
 
-Felsic Deposit
+#### Felsic Deposit
 | Roll | Material |
 |------|----------|
 | 1-7 | Inert Materials |
@@ -102,7 +109,7 @@ Felsic Deposit
 | 17-19 | Hephaestenite |
 | 20 | Bexalite |
 
-Gneiss Deposit
+#### Gneiss Deposit
 | Roll | Material |
 |------|----------|
 | 1-2 | Inert Materials |
@@ -113,7 +120,7 @@ Gneiss Deposit
 | 15-18| Agricium |
 | 19-20 | Taranite |
 
-Granite Deposit
+#### Granite Deposit
 | Roll | Material |
 |------|----------|
 | 1-2 | Inert Materials |
@@ -124,7 +131,7 @@ Granite Deposit
 | 17-18 | Agricium |
 | 19-20 | Laranite |
 
-Igneous Deposit
+#### Igneous Deposit
 | Roll | Material |
 |------|----------|
 | 1-4 | Inert Materials |
@@ -134,7 +141,7 @@ Igneous Deposit
 | 14-16 | Titanium |
 | 17-20 | Taranite |
 
-Obsidian Deposit
+#### Obsidian Deposit
 | Roll | Material |
 |------|----------|
 | 1-3| Inert Materials |
@@ -144,7 +151,7 @@ Obsidian Deposit
 | 16-18 | Hephaestanite |
 | 19-20 | Bexalite |
 
-Quantanium Deposit
+#### Quantanium Deposit
 | Roll | Material |
 |------|----------|
 | 1 | Inert Materials |
@@ -154,7 +161,7 @@ Quantanium Deposit
 | 14-15 | Borase |
 | 16-20 | Quantanium |
 
-Quartzite Deposit
+#### Quartzite Deposit
 | Roll | Material |
 |------|----------|
 | 1-2 | Inert Materials |
@@ -165,7 +172,7 @@ Quartzite Deposit
 | 17-18 | Diamond |
 | 19-20 | Taranite |
 
-Shale Deposit
+#### Shale Deposit
 | Roll | Material |
 |------|----------|
 | 1-2 | Inert Materials |
@@ -175,8 +182,8 @@ Shale Deposit
 | 15-17 | Agricium |
 | 18-20 | Laranite |
 
-### Asteroid Composition
-C-Type
+## Asteroid Composition
+#### C-Type
 | Roll | Material |
 |------|----------|
 | 1-10 | Inert Materials |
@@ -184,7 +191,7 @@ C-Type
 | 17-19 | Laranite |
 | 20  | Quantanium |
 
-E-Type
+#### E-Type
 | Roll | Material |
 |------|----------|
 | 1-10 | Inert Materials |
@@ -193,7 +200,7 @@ E-Type
 | 17-19 | Diamond |
 | 20  | Borase |
 
-M-Type
+#### M-Type
 | Roll | Material |
 |------|----------|
 | 1-5 | Inert Materials |
@@ -201,7 +208,7 @@ M-Type
 | 14-17 | Haphaestanite |
 | 18-20  | Laranite |
 
-P-Type
+#### P-Type
 | Roll | Material |
 |------|----------|
 | 1-3 | Inert Materials |
@@ -211,7 +218,7 @@ P-Type
 | 18-19 | Titanium |
 | 20  | Bexalite |
 
-Q-Type
+#### Q-Type
 | Roll | Material |
 |------|----------|
 | 1-2 | Inert Materials |
@@ -220,7 +227,7 @@ Q-Type
 | 10-15 | Borase |
 | 16-20  | Quantanium |
 
-S-Type
+#### S-Type
 | Roll | Material |
 |------|----------|
 | 1-7 | Inert Materials |
