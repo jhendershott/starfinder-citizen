@@ -1,4 +1,9 @@
 # Civilian Ships
+Ships in this category will perform tasks in the following areas
+- Touring
+- Racing
+- Exploration
+- General Transport
 
 ## Snub  
 <details>

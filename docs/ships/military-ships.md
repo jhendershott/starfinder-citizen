@@ -1,4 +1,5 @@
 # Military Role Ships
+Ships in this category are combat focused, from fighters and dropships all the way up to frigates, corvettes and Heavy Carriers. 
 
 ## Snub  
 <details>

@@ -1,4 +1,9 @@
 # Commercial Role Ships
+Ships in this category will perform tasks in the following areas
+- Cargo hauling and trading
+- Science
+- Medical
+- Passenger Transport
 
 ## Snub  
 <details>
