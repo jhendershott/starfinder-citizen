@@ -33,7 +33,26 @@
         
         var pageToc = [
           {title: "Trading", url: "#_top", children: [
-              {title: "Trade Goods", url: "#trade-goods" },
+              {title: "Purchasing Goods", url: "#purchasing-goods" },
+              {title: "Selling Goods", url: "#selling-goods" },
+              {title: "Trade Goods By Type", url: "#trade-goods-by-type" },
+          ]},
+          {title: "Trade Goods By Buy Location Type", url: "#trade-goods-by-buy-location-type", children: [
+              {title: "Agriculture Facilities", url: "#agriculture-facilities" },
+              {title: "City Central Business District", url: "#city-central-business-district" },
+          ]},
+          {title: "Drug Lab/Dead Drop", url: "#drug-labdead-drop", children: [
+          ]},
+          {title: "Rest Stop Stations", url: "#rest-stop-stations", children: [
+              {title: "Research Facilities", url: "#research-facilities" },
+              {title: "Mining Facilities", url: "#mining-facilities" },
+          ]},
+          {title: "Trade Goods by Sell Location Type", url: "#trade-goods-by-sell-location-type", children: [
+              {title: "Agriculture Facilities", url: "#agriculture-facilities_1" },
+              {title: "City Central Business District", url: "#city-central-business-district_1" },
+              {title: "Rest Stop Stations", url: "#rest-stop-stations_1" },
+          ]},
+          {title: "Vice Terminals", url: "#vice-terminals", children: [
           ]},
         ];
 
@@ -54,31 +73,1184 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../setting-and-lore/systems/stanton/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../setting-and-lore/systems/stanton/" class="btn btn-xs btn-link">
+        Stanton
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../mining/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../mining/" class="btn btn-xs btn-link">
+        Mining
+      </a>
+    </div>
+    
+  </div>
+
+    
 
     <h1 id="trading">Trading</h1>
 <p>Trading can either be a career choice for chartacters or just a way to make a little money on the side when travelling around the system, whether you've loaded a small haul into your RSI aurora or you've loaded down dedicated cargo haulers like the Argo Raft or Drake Caterpillar, with a little bit of investment capital you can make it rich...or fall prey to pirates...who knows</p>
-<h2 id="trade-goods">Trade Goods</h2>
+<h2 id="purchasing-goods">Purchasing Goods</h2>
+<p>The first step in trading is determining the available goods. If you know the Goods you're after you can find them on the Trade Goods By Type Table Below. Otherwise you can determine your location type under Settings and Lore/Stanton then look at the Location by Buy Type Table below. </p>
+<p>Next you need to determine the amount of said material is avaiable. Since you can fill ships of many sizes from a single SCU in an Aurora to thousands of SCU in a Hull E you will roll <strong>1d20x1d10</strong> for each type you want to purchase. The Exception is the amount of VICE goods you want to trade which will be <strong>1d10 x 1d4.</strong> However, BE AWARE, if you get scanned by security while you have this on board then you can be subject to goods seizure as well as jail time.</p>
+<p>Finally you must determine the Purchase Price. In the tables below you will see a Base Buy Price. This the price that these goods start from and can go up or down depending on the availability and the parties ability to haggle with the merchant. First you will determine the availability by Rolling a <strong>1d20</strong>. 
+- 1 Means there is none of that material available
+- 2-6 means low stock is present and the price is raised by 20%
+- 7-15 means that a normal amount is present start at base price
+- 16-20 means there is a surpluse and price is lowered by 20%</p>
+<p>If you've got a smooth talker in your party then you can barter with the clerk at the sales desk use a <strong>DC 15 Diplomacy, Intimidate or Bluff Check</strong>. For every point over a success you will get <strong>1d4%</strong>off the purchase price. Example if you roll a Diplomacy of 19 you will get <strong>4d4%</strong> off the the Base Buy Price up to a maximum of 25%. Alternatively, if you make a very persuasive argument your GM can bypass the role and give you the discount. </p>
+<h2 id="selling-goods">Selling Goods</h2>
+<p>Once you've loaded up with Cargo you will follow a very similar process with reversed Values. You will first determine the purchasing power that the location has <strong>1d20x1d10</strong> for each type you want to sell. The Exception is the amount of VICE goods you want to trade which will be <strong>1d10 x 1d4.</strong> A successful DC 15 Diplomacy, Bluff or Intimidation check could increase the amount a location is willing to purchase. In this case you can roll and additional 1d6, making the total, <strong>1d20+1d6 x 1d10</strong></p>
+<p>Then determine the need for a given product by Rolling a <strong>1d20</strong>. 
+- 1 means they are unwilling to purchase any of this good type
+- 2-6 means there is a surplus and price is lowered by 20%
+- 7-15 means that a normal amount is present start at base price
+- 16-20 means there is a surplus and price is raised by 20%</p>
+<p>As well as increasing the price of the goods you're selling with a successful<strong>DC 15 Diplomacy, Intimidate or Bluff Check</strong>. For every point over a success you will get <strong>1d4%</strong>off the purchase price. Example if you roll a Diplomacy of 19 you will get <strong>4d4%</strong> off the the Base Buy Price up to a maximum of 25%.</p>
+<h2 id="trade-goods-by-type">Trade Goods By Type</h2>
 <table>
 <thead>
 <tr>
 <th>Material</th>
-<th>Location Type</th>
+<th>Buy Location</th>
 <th>Base Buy Price</th>
+<th>Sell Location</th>
 <th>Base Sell Price</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>Agricium</td>
+<td>Moon Based Mining Facilities</td>
+<td>23.56</td>
+<td>City Central Business District</td>
+<td>27.5</td>
+</tr>
+<tr>
+<td>Agricium (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>14.3</td>
+</tr>
+<tr>
+<td>Aluminum</td>
+<td>Moon Based Mining Facilities</td>
+<td>1.1</td>
+<td>City Central Business District</td>
+<td>1.3</td>
+</tr>
+<tr>
+<td>Aluminum (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>0.66</td>
+</tr>
+<tr>
+<td>Borase</td>
+<td>Mining only</td>
+<td>0</td>
+<td>City Central Business District</td>
+<td>35.21</td>
+</tr>
+<tr>
+<td>Borase (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>17.6</td>
+</tr>
+<tr>
+<td>Copper</td>
+<td>Mining only</td>
+<td>0</td>
+<td>City Central Business District</td>
+<td>6.16</td>
+</tr>
+<tr>
+<td>Copper (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>3.08</td>
+</tr>
+<tr>
+<td>Gold</td>
+<td>Moon Based Mining Facilities</td>
+<td>5.41</td>
+<td>City Central Business District</td>
+<td>6.41</td>
+</tr>
+<tr>
+<td>Gold (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>3.13</td>
+</tr>
+<tr>
+<td>Laranite</td>
+<td>Moon Based Mining Facilities</td>
+<td>27.33</td>
+<td>City Central Business District</td>
+<td>31.01</td>
+</tr>
+<tr>
+<td>Titanium</td>
+<td>Moon Based Mining Facilities</td>
+<td>7.52</td>
+<td>City Central Business District</td>
+<td>8.9</td>
+</tr>
+<tr>
+<td>Titanium (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>4.4</td>
+</tr>
+<tr>
+<td>Tungsten</td>
+<td>Moon Based Mining Facilities</td>
+<td>3.55</td>
+<td>City Central Business District</td>
+<td>4.06</td>
+</tr>
+<tr>
+<td>Tungsten (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>2.09</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Agricultural Supply</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agricultural Supplies</td>
+<td>Research Facilities</td>
+<td>0.96</td>
+<td>Agricultural Facilities</td>
+<td>1.21</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Vice</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Altruciatoxin</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>42.5</td>
+<td>Vice Terminals</td>
+<td>52.97</td>
+</tr>
+<tr>
+<td>Distilled Spirits</td>
+<td>Agricultural Areas</td>
+<td>4.5</td>
+<td>Rest Stop Locations and Mining Facilities</td>
+<td>5.67</td>
+</tr>
+<tr>
+<td>E'tam</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>85</td>
+<td>Vice Terminals</td>
+<td>104.52</td>
+</tr>
+<tr>
+<td>Maze</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>380</td>
+<td>Vice Terminals</td>
+<td>450</td>
+</tr>
+<tr>
+<td>Neon</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>70</td>
+<td>Vice Terminals</td>
+<td>82.88</td>
+</tr>
+<tr>
+<td>SLAM</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>120</td>
+<td>Vice Terminals</td>
+<td>169</td>
+</tr>
+<tr>
+<td>Stims</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>3.1</td>
+<td>Vice Terminals</td>
+<td>3.86</td>
+</tr>
+<tr>
+<td>WiDow</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>101.01</td>
+<td>Vice Terminals</td>
+<td>127.64</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Mineral</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Beryl</td>
+<td>Moon Based Mining Facilities</td>
+<td>4.06</td>
+<td>City Central Business District</td>
+<td>4.35</td>
+</tr>
+<tr>
+<td>Beryl (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>2.31</td>
+</tr>
+<tr>
+<td>Bexalite</td>
+<td>Only Refined</td>
+<td>0</td>
+<td>City Central Business District</td>
+<td>44</td>
+</tr>
+<tr>
+<td>Bexalite (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations 22</td>
 <td></td>
+</tr>
+<tr>
+<td>Corundum</td>
+<td>Moon Based Mining Facilities</td>
+<td>2.3</td>
+<td>City Central Business District</td>
+<td>2.71</td>
+</tr>
+<tr>
+<td>Corundum (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations 1.38</td>
 <td></td>
+</tr>
+<tr>
+<td>Diamond</td>
+<td>Moon Based Mining Facilities</td>
+<td>6.17</td>
+<td>City Central Business District</td>
+<td>7.35</td>
+</tr>
+<tr>
+<td>Diamond (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>3.63</td>
+</tr>
+<tr>
+<td>Hephaestanite</td>
+<td>Only Refined</td>
+<td>0</td>
+<td>City Central Business District</td>
+<td>15.85</td>
+</tr>
+<tr>
+<td>Hephaestanite (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>7.92</td>
+</tr>
+<tr>
+<td>Laranite</td>
+<td>Moon Based Mining Facilities</td>
+<td>27.33</td>
+<td>City Central Business District</td>
+<td>31.01</td>
+</tr>
+<tr>
+<td>Laranite (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>15.4</td>
+</tr>
+<tr>
+<td>Quantainium</td>
+<td>Only Refined</td>
+<td>0</td>
+<td>City Central Business District</td>
+<td>88</td>
+</tr>
+<tr>
+<td>Quantainium (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>44</td>
+</tr>
+<tr>
+<td>Quartz</td>
+<td>Moon Based Mining Facilities</td>
+<td>1.25</td>
+<td>City Central Business District</td>
+<td>1.55</td>
+</tr>
+<tr>
+<td>Quartz (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>0.77</td>
+</tr>
+<tr>
+<td>Taranite</td>
+<td>Only Refined</td>
+<td>0</td>
+<td>City Central Business District</td>
+<td>35.2</td>
+</tr>
+<tr>
+<td>Taranite (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>17.6</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Gas</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Astatine</td>
+<td>Moon Based Mining Facilities</td>
+<td>7.45</td>
+<td>City Central Business District and Research Outposts</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Chlorine</td>
+<td>Moon Based Mining Facilities</td>
+<td>1.3</td>
+<td>City Central Business District and Research Outposts</td>
+<td>1.71</td>
+</tr>
+<tr>
+<td>Fluorine</td>
+<td>Moon Based Mining Facilities</td>
+<td>2.31</td>
+<td>City Central Business District and Research Outposts</td>
+<td>2.96</td>
+</tr>
+<tr>
+<td>Helium</td>
+<td>Moon Based Mining Facilities</td>
+<td>1.2</td>
+<td>City Central Business District and Research Outposts</td>
+<td>2.3</td>
+</tr>
+<tr>
+<td>Hydrogen</td>
+<td>Moon Based Mining Facilities</td>
+<td>0.9</td>
+<td>City Central Business District and Research Outposts</td>
+<td>1.12</td>
+</tr>
+<tr>
+<td>Iodine</td>
+<td>Moon Based Mining Facilities</td>
+<td>0.35</td>
+<td>City Central Business District and Research Outposts</td>
+<td>0.45</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Scrap</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scrap</td>
+<td>Rest Stop Stations And Cities</td>
+<td>1.36</td>
+<td>Salvage Yards</td>
+<td>1.62</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Medical Supply</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Medical Supplies</td>
+<td>Research Outposts</td>
+<td>17.29</td>
+<td>Mining, Agriculture Security Outposts and Rest Stop Stations</td>
+<td>19.25</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Food</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Processed Food</td>
+<td>Agriculture Facilities</td>
+<td>1.2</td>
+<td>All other locations 1.56</td>
 <td></td>
-<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="trade-goods-by-buy-location-type">Trade Goods By Buy Location Type</h1>
+<h2 id="agriculture-facilities">Agriculture Facilities</h2>
+<table>
+<thead>
+<tr>
+<th>Goods Name</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(Vice) Distilled Spirits</td>
+<td>Agricultural Areas</td>
+<td>4.5</td>
+<td>Rest Stop Locations and Mining Facilities</td>
+<td>5.67</td>
+</tr>
+<tr>
+<td>Processed Food</td>
+<td>Agriculture Facilities</td>
+<td>1.2</td>
+<td>All other locations</td>
+<td>1.56</td>
+</tr>
+</tbody>
+</table>
+<h2 id="city-central-business-district">City Central Business District</h2>
+<table>
+<thead>
+<tr>
+<th>Goods Name</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scrap</td>
+<td>Rest Stop Stations And Cities</td>
+<td>1.36</td>
+<td>Salvage Yards</td>
+<td>1.62</td>
+</tr>
+</tbody>
+</table>
+<h1 id="drug-labdead-drop">Drug Lab/Dead Drop</h1>
+<table>
+<thead>
+<tr>
+<th>Goods Name</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Altruciatoxin</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>42.5</td>
+<td>Vice Terminals</td>
+<td>52.97</td>
+</tr>
+<tr>
+<td>E'tam</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>85</td>
+<td>Vice Terminals</td>
+<td>104.52</td>
+</tr>
+<tr>
+<td>Maze</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>380</td>
+<td>Vice Terminals</td>
+<td>450</td>
+</tr>
+<tr>
+<td>Neon</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>70</td>
+<td>Vice Terminals</td>
+<td>82.88</td>
+</tr>
+<tr>
+<td>SLAM</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>120</td>
+<td>Vice Terminals</td>
+<td>169</td>
+</tr>
+<tr>
+<td>Stims</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>3.1</td>
+<td>Vice Terminals</td>
+<td>3.86</td>
+</tr>
+<tr>
+<td>WiDow</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>101.01</td>
+<td>Vice Terminals</td>
+<td>127.64</td>
+</tr>
+</tbody>
+</table>
+<h1 id="rest-stop-stations">Rest Stop Stations</h1>
+<table>
+<thead>
+<tr>
+<th>Goods Name</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scrap</td>
+<td>Rest Stop Stations And Cities</td>
+<td>1.36</td>
+<td>Salvage Yards</td>
+<td>1.62</td>
+</tr>
+</tbody>
+</table>
+<h2 id="research-facilities">Research Facilities</h2>
+<table>
+<thead>
+<tr>
+<th>Research Facilities</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agricultural Supplies</td>
+<td>Research Facilities</td>
+<td>0.96</td>
+<td>Agricultural Facilities</td>
+<td>1.21</td>
+</tr>
+<tr>
+<td>Medical Supplies</td>
+<td>Research Outposts</td>
+<td>17.29</td>
+<td>Mining, Agriculture Security Outposts and Rest Stop Stations</td>
+<td>19.25</td>
+</tr>
+<tr>
+<td>(Vice)Stims</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>3.1</td>
+<td>Vice Terminals</td>
+<td>3.86</td>
+</tr>
+</tbody>
+</table>
+<h2 id="mining-facilities">Mining Facilities</h2>
+<table>
+<thead>
+<tr>
+<th>Goods Name</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agricium</td>
+<td>Moon Based Mining Facilities</td>
+<td>23.56</td>
+<td>City Central Business District</td>
+<td>27.5</td>
+</tr>
+<tr>
+<td>Astatine</td>
+<td>Moon Based Mining Facilities</td>
+<td>7.45</td>
+<td>City Central Business District and Research Outposts</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Beryl</td>
+<td>Moon Based Mining Facilities</td>
+<td>4.06</td>
+<td>City Central Business District</td>
+<td>4.35</td>
+</tr>
+<tr>
+<td>Aluminum</td>
+<td>Moon Based Mining Facilities</td>
+<td>1.1</td>
+<td>City Central Business District</td>
+<td>1.3</td>
+</tr>
+<tr>
+<td>Corundum</td>
+<td>Moon Based Mining Facilities</td>
+<td>2.3</td>
+<td>City Central Business District</td>
+<td>2.71</td>
+</tr>
+<tr>
+<td>Chlorine</td>
+<td>Moon Based Mining Facilities</td>
+<td>1.3</td>
+<td>City Central Business District and Research Outposts</td>
+<td>1.71</td>
+</tr>
+<tr>
+<td>Diamond</td>
+<td>Moon Based Mining Facilities</td>
+<td>6.17</td>
+<td>City Central Business District</td>
+<td>7.35</td>
+</tr>
+<tr>
+<td>Fluorine</td>
+<td>Moon Based Mining Facilities</td>
+<td>2.31</td>
+<td>City Central Business District and Research Outposts</td>
+<td>2.96</td>
+</tr>
+<tr>
+<td>Gold</td>
+<td>Moon Based Mining Facilities</td>
+<td>5.41</td>
+<td>City Central Business District</td>
+<td>6.41</td>
+</tr>
+<tr>
+<td>Helium</td>
+<td>Moon Based Mining Facilities</td>
+<td>1.2</td>
+<td>City Central Business District and Research Outposts</td>
+<td>2.3</td>
+</tr>
+<tr>
+<td>Hydrogen</td>
+<td>Moon Based Mining Facilities</td>
+<td>0.9</td>
+<td>City Central Business District and Research Outposts</td>
+<td>1.12</td>
+</tr>
+<tr>
+<td>Iodine</td>
+<td>Moon Based Mining Facilities</td>
+<td>0.35</td>
+<td>City Central Business District and Research Outposts</td>
+<td>0.45</td>
+</tr>
+<tr>
+<td>Quartz</td>
+<td>Moon Based Mining Facilities</td>
+<td>1.25</td>
+<td>City Central Business District</td>
+<td>1.55</td>
+</tr>
+<tr>
+<td>Titanium</td>
+<td>Moon Based Mining Facilities</td>
+<td>7.52</td>
+<td>City Central Business District</td>
+<td>8.9</td>
+</tr>
+<tr>
+<td>Tungsten</td>
+<td>Moon Based Mining Facilities</td>
+<td>3.55</td>
+<td>City Central Business District</td>
+<td>4.06</td>
+</tr>
+</tbody>
+</table>
+<h1 id="trade-goods-by-sell-location-type">Trade Goods by Sell Location Type</h1>
+<h2 id="agriculture-facilities_1">Agriculture Facilities</h2>
+<table>
+<thead>
+<tr>
+<th>Goods Name</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Medical Supplies</td>
+<td>Research Outposts</td>
+<td>17.29</td>
+<td>Mining, Agriculture Security Outposts and Rest Stop Stations</td>
+<td>19.25</td>
+</tr>
+<tr>
+<td>Distilled Spirits</td>
+<td>Agricultural Areas</td>
+<td>4.5</td>
+<td>Rest Stop Locations and Mining Facilities</td>
+<td>5.67</td>
+</tr>
+</tbody>
+</table>
+<h2 id="city-central-business-district_1">City Central Business District</h2>
+<table>
+<thead>
+<tr>
+<th>Goods Name</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agricium</td>
+<td>Moon Based Mining Facilities</td>
+<td>23.56</td>
+<td>City Central Business District</td>
+<td>27.5</td>
+</tr>
+<tr>
+<td>Astatine</td>
+<td>Moon Based Mining Facilities</td>
+<td>7.45</td>
+<td>City Central Business District and Research Outposts</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Beryl</td>
+<td>Moon Based Mining Facilities</td>
+<td>4.06</td>
+<td>City Central Business District</td>
+<td>4.35</td>
+</tr>
+<tr>
+<td>Aluminum</td>
+<td>Moon Based Mining Facilities</td>
+<td>1.1</td>
+<td>City Central Business District</td>
+<td>1.3</td>
+</tr>
+<tr>
+<td>Corundum</td>
+<td>Moon Based Mining Facilities</td>
+<td>2.3</td>
+<td>City Central Business District</td>
+<td>2.71</td>
+</tr>
+<tr>
+<td>Chlorine</td>
+<td>Moon Based Mining Facilities</td>
+<td>1.3</td>
+<td>City Central Business District and Research Outposts</td>
+<td>1.71</td>
+</tr>
+<tr>
+<td>Diamond</td>
+<td>Moon Based Mining Facilities</td>
+<td>6.17</td>
+<td>City Central Business District</td>
+<td>7.35</td>
+</tr>
+<tr>
+<td>Fluorine</td>
+<td>Moon Based Mining Facilities</td>
+<td>2.31</td>
+<td>City Central Business District and Research Outposts</td>
+<td>2.96</td>
+</tr>
+<tr>
+<td>Gold</td>
+<td>Moon Based Mining Facilities</td>
+<td>5.41</td>
+<td>City Central Business District</td>
+<td>6.41</td>
+</tr>
+<tr>
+<td>Helium</td>
+<td>Moon Based Mining Facilities</td>
+<td>1.2</td>
+<td>City Central Business District and Research Outposts</td>
+<td>2.3</td>
+</tr>
+<tr>
+<td>Hydrogen</td>
+<td>Moon Based Mining Facilities</td>
+<td>0.9</td>
+<td>City Central Business District and Research Outposts</td>
+<td>1.12</td>
+</tr>
+<tr>
+<td>Iodine</td>
+<td>Moon Based Mining Facilities</td>
+<td>0.35</td>
+<td>City Central Business District and Research Outposts</td>
+<td>0.45</td>
+</tr>
+<tr>
+<td>Quartz</td>
+<td>Moon Based Mining Facilities</td>
+<td>1.25</td>
+<td>City Central Business District</td>
+<td>1.55</td>
+</tr>
+<tr>
+<td>Titanium</td>
+<td>Moon Based Mining Facilities</td>
+<td>7.52</td>
+<td>City Central Business District</td>
+<td>8.9</td>
+</tr>
+<tr>
+<td>Tungsten</td>
+<td>Moon Based Mining Facilities</td>
+<td>3.55</td>
+<td>City Central Business District</td>
+<td>4.06</td>
+</tr>
+</tbody>
+</table>
+<h2 id="rest-stop-stations_1">Rest Stop Stations</h2>
+<table>
+<thead>
+<tr>
+<th>Goods Name</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agricium (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>14.3</td>
+</tr>
+<tr>
+<td>Aluminum (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>0.66</td>
+</tr>
+<tr>
+<td>Beryl (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>2.31</td>
+</tr>
+<tr>
+<td>Bexalite (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>22</td>
+</tr>
+<tr>
+<td>Borase (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>17.6</td>
+</tr>
+<tr>
+<td>Copper (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>3.08</td>
+</tr>
+<tr>
+<td>Corundum (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>1.38</td>
+</tr>
+<tr>
+<td>Diamond (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>3.63</td>
+</tr>
+<tr>
+<td>(VICE) Distilled Spirits</td>
+<td>Agricultural Areas</td>
+<td>4.5</td>
+<td>Rest Stop Locations and Mining Facilities</td>
+<td>5.67</td>
+</tr>
+<tr>
+<td>Gold (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>3.13</td>
+</tr>
+<tr>
+<td>Hephaestanite (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>7.92</td>
+</tr>
+<tr>
+<td>Laranite (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>15.4</td>
+</tr>
+<tr>
+<td>Medical Supplies</td>
+<td>Research Outposts</td>
+<td>17.29</td>
+<td>Mining, Agriculture Security Outposts and Rest Stop Stations</td>
+<td>19.25</td>
+</tr>
+<tr>
+<td>Quantainium</td>
+<td>Only Refined</td>
+<td>0</td>
+<td>City Central Business District</td>
+<td>88</td>
+</tr>
+<tr>
+<td>Quartz (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>0.77</td>
+</tr>
+<tr>
+<td>Taranite (Raw)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>17.6</td>
+</tr>
+<tr>
+<td>Titanium (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>4.4</td>
+</tr>
+<tr>
+<td>Tungsten (Ore)</td>
+<td>Mining only</td>
+<td>0</td>
+<td>Rest Stop Stations</td>
+<td>2.09</td>
+</tr>
+</tbody>
+</table>
+<h1 id="vice-terminals">Vice Terminals</h1>
+<table>
+<thead>
+<tr>
+<th>Goods Name</th>
+<th>Buy Location</th>
+<th>Base Buy Price</th>
+<th>Sell Location</th>
+<th>Base Sell Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Altruciatoxin</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>42.5</td>
+<td>Vice Terminals</td>
+<td>52.97</td>
+</tr>
+<tr>
+<td>E'tam</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>85</td>
+<td>Vice Terminals</td>
+<td>104.52</td>
+</tr>
+<tr>
+<td>Maze</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>380</td>
+<td>Vice Terminals</td>
+<td>450</td>
+</tr>
+<tr>
+<td>Neon</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>70</td>
+<td>Vice Terminals</td>
+<td>82.88</td>
+</tr>
+<tr>
+<td>SLAM</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>120</td>
+<td>Vice Terminals</td>
+<td>169</td>
+</tr>
+<tr>
+<td>Stims</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>3.1</td>
+<td>Vice Terminals</td>
+<td>3.86</td>
+</tr>
+<tr>
+<td>WiDow</td>
+<td>Drug Lab and Dead Drop Outposts</td>
+<td>101.01</td>
+<td>Vice Terminals</td>
+<td>127.64</td>
 </tr>
 </tbody>
 </table>
 
   <br>
     
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../setting-and-lore/systems/stanton/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../setting-and-lore/systems/stanton/" class="btn btn-xs btn-link">
+        Stanton
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../mining/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../mining/" class="btn btn-xs btn-link">
+        Mining
+      </a>
+    </div>
+    
+  </div>
 
     <br>
 </div>

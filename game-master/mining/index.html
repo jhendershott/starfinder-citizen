@@ -33,11 +33,21 @@
         
         var pageToc = [
           {title: "Mining", url: "#_top", children: [
-              {title: "Location Types", url: "#location-types" },
-              {title: "Prospecting Process", url: "#prospecting-process" },
+          ]},
+          {title: "Immersive Rules", url: "#immersive-rules", children: [
+              {title: "Mining Process", url: "#mining-process" },
+              {title: "Mining Location Types", url: "#mining-location-types" },
+              {title: "Pilot Phase", url: "#pilot-phase" },
               {title: "DC Modifiers and Generation", url: "#dc-modifiers-and-generation" },
+              {title: "Prospecting Phase", url: "#prospecting-phase" },
               {title: "Deposit Composition", url: "#deposit-composition" },
               {title: "Asteroid Composition", url: "#asteroid-composition" },
+              {title: "Cutting Phase", url: "#cutting-phase" },
+              {title: "Collecting Phase", url: "#collecting-phase" },
+          ]},
+          {title: "Downtime Rules", url: "#downtime-rules", children: [
+          ]},
+          {title: "Refining and Selling", url: "#refining-and-selling", children: [
           ]},
         ];
 
@@ -65,12 +75,12 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="../../setting-and-lore/systems/stanton/" class="btn btn-xs btn-default pull-right">
+      <a href="../trading/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="../../setting-and-lore/systems/stanton/" class="btn btn-xs btn-link">
-        Stanton
+      <a href="../trading/" class="btn btn-xs btn-link">
+        Trading
       </a>
     </div>
     
@@ -88,15 +98,33 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     <h1 id="mining">Mining</h1>
 <p>Dedicated ships are required to crack massive rocks, whether it's on a planets surface or an asteroid belt deep in space you can find untold riches just locked away since the beginning of eternity just waiting to be cracked open. </p>
-<h2 id="location-types">Location Types</h2>
-<p>Asteroid Fields(F): 
-Astroid Inner Belt(I): 
-Asteroid Outer Belt(O)
-Planet Surface(P)
-Moon Surface(M)</p>
-<h2 id="prospecting-process">Prospecting Process</h2>
+<p>Below you'll find 3 different rulesets. This is in an effort to accomodate different play styles. </p>
+<ul>
+<li>
+<p>Immersive Rules: This is an attempt to give a you the most immersive Star Citizen experience. If you're wanting a crunchy set of rules to get your mining materials this is the one for you.</p>
+</li>
+<li>
+<p>Downtime Rules: This is for a group that has access to a mining ship but want to be more combat or roleplay focused and skip the mechanic</p>
+</li>
+</ul>
+<h1 id="immersive-rules">Immersive Rules</h1>
+<h2 id="mining-process">Mining Process</h2>
 <p>Standard operating procedures are required to provide safe and effective mining of a given area that will undoubtedly be wrought with danger and risk.</p>
-<p>Whether you're moving across the surface of a high gravity planet or through a densely packed astroid belt your pilot will have to successfully navigate you close enough to the surface or between asteroid for the scan. A ship pilot must make a successful Pilot skill check. The DC of the check will be 10 + Ship Size Modifier + Situation Modifier. If the Pilot check succeeds, then move on to the prospecting phase of mining. If the Pilot Check fails then roll 1d20 on the Pilot incident table.</p>
+<ul>
+<li>Pilot Phase</li>
+<li>Prospect/Sensor Phase</li>
+<li>Cutting Phase</li>
+<li>Collecting Phase</li>
+</ul>
+<h2 id="mining-location-types">Mining Location Types</h2>
+<p>Asteroid Fields
+Astroid Inner Belt 
+Asteroid Outer Belt
+Planet Surface
+Moon Surface</p>
+<h2 id="pilot-phase">Pilot Phase</h2>
+<p>Whether you're moving across the surface of a high gravity planet or through a densely packed astroid belt your pilot will have to successfully navigate you close enough to the surface or between asteroid for the scan. A ship pilot must make a successful Pilot skill check. The DC of the check will be 10 + Ship Size Modifier + Situation Modifier. </p>
+<p>If you are selling or refining see Game Mastering &gt; Trading</p>
 <h2 id="dc-modifiers-and-generation">DC Modifiers and Generation</h2>
 <h4 id="ship-size-modifiers">Ship Size Modifiers</h4>
 <table>
@@ -124,7 +152,7 @@ Moon Surface(M)</p>
 <td>+6</td>
 </tr>
 <tr>
-<td>Captital</td>
+<td>Capital</td>
 <td>+ 10</td>
 </tr>
 </tbody>
@@ -143,7 +171,7 @@ Moon Surface(M)</p>
 <td>- 2</td>
 </tr>
 <tr>
-<td>Medium Graity (Planet Surface)</td>
+<td>Medium Gravity (Planet Surface)</td>
 <td>+0</td>
 </tr>
 <tr>
@@ -151,7 +179,7 @@ Moon Surface(M)</p>
 <td>+2</td>
 </tr>
 <tr>
-<td>Low visibility (nebula or atmospheric)</td>
+<td>Low Visibility (nebula or atmospheric)</td>
 <td>+2</td>
 </tr>
 <tr>
@@ -168,6 +196,7 @@ Moon Surface(M)</p>
 </tr>
 </tbody>
 </table>
+<p>If the Pilot check succeeds, then move on to the prospecting phase of mining. If the Pilot Check fails then roll 1d20 on the Pilot incident table.</p>
 <h4 id="pilot-incident-table">Pilot Incident Table</h4>
 <table>
 <thead>
@@ -195,7 +224,8 @@ Moon Surface(M)</p>
 </tr>
 </tbody>
 </table>
-<p>Once the Pilot navigates to the area either a science officer, or in the case of a Misc Prospector the pilot will make a Sensor Check to scan for nearby  deposits. Roll a sensor check against a DC 15 + Prospecting Modifier</p>
+<h2 id="prospecting-phase">Prospecting Phase</h2>
+<p>Once the Pilot navigates to the area either a science officer, or in the case of a Misc Prospector the pilot will make a Sensor Check to scan for nearby  deposits. Roll a sensor check against a DC 15 + Prospecting Modifier. A failed Prospecting Sensor check means that nothing of value was found in the immediate vicinity. If nothing is found but you want to continue prospecting then you will have start over at the Pilot Phase.</p>
 <h4 id="prospecting-modifiers">Prospecting Modifiers</h4>
 <table>
 <thead>
@@ -231,7 +261,7 @@ Moon Surface(M)</p>
 </tr>
 </tbody>
 </table>
-<p>Once a successful prospect role has been found role on the tables below to determine the deposit type, material, and yield of the deposit that you're mining. Then determine the number of cluster by rolling 1d8, then the number of Cargu Units 1d6 you have collected. Once you've collected it you can continue to search with a new Pilot Skill Check. Then you can take the material either to refinement or direct sale.</p>
+<p>Once a successful prospect role has been found rol on the tables below to determine the deposit type, material, and yield of the deposit that you're mining. </p>
 <h4 id="deposit-type-table">Deposit Type Table</h4>
 <table>
 <thead>
@@ -375,7 +405,7 @@ Moon Surface(M)</p>
 </tr>
 <tr>
 <td>17</td>
-<td>Obistian</td>
+<td>Obsidian</td>
 <td>Quantanium</td>
 <td>P-Type</td>
 <td>Q-Type</td>
@@ -910,6 +940,17 @@ Moon Surface(M)</p>
 </tr>
 </tbody>
 </table>
+<h2 id="cutting-phase">Cutting Phase</h2>
+<p>Once All the scanning has been completed and you know the composition of the rock now comes the precise work with the mining head to ensure a good. A crew member in controlling the mining head will roll a gunnery check with a DC of 15. If you are successful anything above the DC counts toward the collecting phase. </p>
+<h2 id="collecting-phase">Collecting Phase</h2>
+<p>Once the ore has been hewn from the deposit either the same gunner or another can use extractor beams to collect the materials. The reason you need to roll to collect is that you need to pick and choose to insure the lowest value of inert material.</p>
+<p>For every point above the DC in the cutters attempt, roll 1d6 for the amount of material you've picked up.</p>
+<p>For Example, The Cutter rolled 1d20 and got a 16 + 3 gunner, for a total of 19, you would role 4d6 for the amount picked up in this collection</p>
+<h1 id="downtime-rules">Downtime Rules</h1>
+<p>The above rules are mostly for players or groups that have an industrial focus, however non-industrial minded parties also need income to maintain their military operation. Therefore the party can 'sign on' to work for a mining crew. The Crew will choose the number of days (at the gms discretion) they want to stay out with the crew, then roll a 1d20 + the number of days against a DC of 15, any value above the DC will be that amount of d2 number of cargo units they crew will receive of the cut for their time. </p>
+<p>Example: The crew decides to spend 7 days with a mining crew. They will roll 1d20+7. The crew roles a 14 + 7 = 21. So they will rol 6d2 and collect that number of SCU to Refine or Sell outright</p>
+<h1 id="refining-and-selling">Refining and Selling</h1>
+<p>Once you have collected your ore, whether actively or during downtime the party must decide to sell the raw materials directly or take the time to refine the materials and transport it to another location to sell it for a higher value.</p>
 
   <br>
     
@@ -922,12 +963,12 @@ Moon Surface(M)</p>
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="../../setting-and-lore/systems/stanton/" class="btn btn-xs btn-default pull-right">
+      <a href="../trading/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="../../setting-and-lore/systems/stanton/" class="btn btn-xs btn-link">
-        Stanton
+      <a href="../trading/" class="btn btn-xs btn-link">
+        Trading
       </a>
     </div>
     
